@@ -1,0 +1,28 @@
+.navbar {
+    padding: 40px;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+    border:none!important;
+    background-color: black;
+    color: white;
+}
+
+.dropdown-toggle {
+    background-color: white;
+    color: black;
+    border: black;
+}
+
+.dropdown-toggle:hover {
+    background-color: black;
+    color: white;
+}
+
+#dropdown-basic {
+    display: flex;
+}
+
+

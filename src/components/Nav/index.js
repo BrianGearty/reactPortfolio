@@ -1,14 +1,30 @@
 import React from "react";
+import './style.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "../../components/Grid";
+import { Navbar } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
+// import DropdownNav from "../Dropdown";
 
+
+
+// const cardCenter = { display: 'flex', justifyContent: 'center' }
 function Nav() {
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/"></a>
-            <a className="home" href="/">Home</a>
-            <a className="music" href="/music">Music</a>
-            <a className="webDev" href="/webdevelopment">Web Development</a>
-            <a className="contact" href="/contact">Contact</a>
-        </nav>
+        <Container fluid>
+            <Navbar expand="lg">
+                <NavLink to="/"><Navbar.Brand>Brian Gearty</Navbar.Brand></NavLink>
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav>
+                <NavLink className="nav-item nav-link music" to="/music">Music</NavLink>
+                <NavLink className="nav-item nav-link webDev" to="/webdevelopment">Web Development</NavLink>
+                <NavLink className="nav-item nav-link contact" to="/contact">Contact</NavLink>
+                </Nav>
+                    
+                    </Navbar.Collapse>
+            </Navbar>
+        </Container>
     );
 }
 
