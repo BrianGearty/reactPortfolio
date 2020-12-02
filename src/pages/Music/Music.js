@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row, Container} from "../../components/Grid";
 import { Card, CardImg, CardDeck } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './style.css'
+import "../Music/music.css";
 import data from "../../components/MusicData/musicStuff";
 
 
@@ -10,17 +10,17 @@ const Music = () => {
 
     return (
         <Container fluid>
-            <Row>
-                <div className="cardDeck">
+            <Row className="row-divided">
                 <Col size="lg-12">
+                <div className="cardDeck">
                     <CardDeck>
                         {data.map((artist, i) => {
                             return (
                                 <div key={i} className="cards">
                                     <Card.Body>
                                         <CardImg className='cardImage' src={artist.image} alt={artist.alt}></CardImg>
-                                        <div className="cardText">
-                                        <Card.Title><h3 className='cardHeader'>{artist.artistName}</h3></Card.Title>
+                                        <div className="cardStuff">
+                                        <Card.Title className='cardHeader'>{artist.artistName}</Card.Title>
                                         <Card.Text className='cardParagraph'>{artist.text}</Card.Text>
                                         </div>
                                     </Card.Body>
@@ -28,8 +28,8 @@ const Music = () => {
                             )
                         })}
                     </CardDeck>
-                </Col>
                 </div>
+                </Col>
             </Row>
         </Container>
     );

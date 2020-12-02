@@ -1,21 +1,21 @@
 const data = [ 
 {
 "id": 1,
-"image":"assets/images/recording.jpeg" ,
+"image":"assets/images/recording.jpg" ,
 "alt":"Recording ession set up.",
 "artistName":"Recording Sessions",
 "text":"I am available to record on your next album, single, television show jingle, or movie score! I have a ton of different instruments, pedals, and key bass synthesizers to choose from to get the best tone for your project. With over 10 years experience I am able to learn your music on spot or read from a chart if you have a specific part in mind."
 },
 {
 "id": 2,
-"image":"assets/images/danafuchs.jpeg",
+"image":"assets/images/danafuchs.jpg",
 "alt":"Brian Gearty on stage with Dana Fuchs.",
 "artistName":"Dana Fuchs",
 "text":"Since 2017 I have had the distinct pleasure of touring with the wildly entertaining blues/soul artist, Dana Fuchs from Harlem, NY. Dana played the character, 'Sexy Sadie' in the cult classic, 'Across The Universe.' Dana has a distinct rasp in her voice many compare to Janis Joplin while remaining smooth and soulful. We can be seen and heard all across the United States and Europe."
 },
 {
 "id": 3,
-"image":"assets/images/nicoleatkins.jpeg",
+"image":"assets/images/nicoleatkins.jpg",
 "alt":"Brian Gearty on stage with Nicole Atkins",
 "artistName":"Nicole Atkins",
 "text":"I have had the distinct pleasure of sharing the stage with Nicole Atkins through-out the years. Nicole is often compared to Roy Orbison and many others from the 195 'crooner' era as well as 1960's pschedelic soul. She is coined with The Golden Voice. Her charming delivery and deep rooted vocals bring listeners to a different time and space."
@@ -29,14 +29,14 @@ const data = [
 },
 {
 "id": 5,
-"image":"assets/images/mikeorlando.jpeg",
+"image":"assets/images/mikeorlando.jpg",
 "alt":"Brian Gearty on stage with Mike Orlando and Corey Glover.",
 "artistName":"Corey Glover & Mike Orlando",
 "text":"I got a call to do a music video with a metal band from Norway. I dont play metal! I did it and it lead to me getting hired by the guitarist Mike Orlando of 'Adrenaline Mob' and vocalist Corey Glover of 'Living Colour.' Their original music was a fusion of hard rock, metal, and almost composition-like classical music. To say the least that was one of the most rewarding gigs I have ever done."
 },
 {
 "id": 6,
-"image":"assets/images/flybymidnight.png",
+"image":"assets/images/flybymidnight.jpg",
 "alt":"Brian Gearty on stage with Fly By Midnight.",
 "artistName":"Fly By Midnight",
 "text":"Retro-Pop Duo Fly By Midnight out of New York City. I have the pleasure of doing a bunch with these guys. They write and produce EVERYTHING in house. You dont find that with many acts these days. These guys have got the feel good-upbeat jams that keep you movin'. We hit a bunch of great festivals and venues together including Firefly Music Festival, Panorama Music Festival, and the Rainbow Room."

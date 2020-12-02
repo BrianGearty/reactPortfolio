@@ -1,28 +1,52 @@
 .navbar {
-    padding: 40px;
+    padding: 20px;
+    top: 0;
+    z-index: 2;
 }
 
-
-.dropdown-toggle::after {
-    display: none;
-    border:none!important;
-    background-color: black;
-    color: white;
-}
-
-.dropdown-toggle {
+.nav-item {
+    margin: 20px;
     background-color: white;
     color: black;
-    border: black;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 1px;
 }
 
-.dropdown-toggle:hover {
+.navbar-brand {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.nav-logo {
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.nav-item:hover {
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 
-#dropdown-basic {
-    display: flex;
+.navbar__link--active {
+    background-color: black;
+    color: white;
+    outline: 5px ridge black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.navbar-nav {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 

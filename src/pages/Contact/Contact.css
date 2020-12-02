@@ -1,0 +1,29 @@
+input[type=text] {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+}
+
+input[type=submit] {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+}
+
+.card {
+    padding: 100px;
+    margin: auto;
+    width: 50%;
+}
+
+.form-control {
+    @media (max-width: 1020px) {
+        width: 100%;
+        }
+}
+
+h3 {
+    margin: auto;
+    width: 50% ;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+}
+

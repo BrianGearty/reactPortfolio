@@ -1,0 +1,42 @@
+.cardHeader {
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.cardParagraph {
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.cardStuff {
+    display: inline-block;
+    width: 50%;
+    padding: 200px 0;
+    @media (max-width: 620px) {
+    width: 100%;
+    }
+    
+}
+
+.cardDeck {
+    display: flex; 
+}
+
+.cardImage {
+    display: inline-block;
+    width: 30%;
+    border: 3px black solid;
+    float: left;
+    margin-right: 100px;
+}
+
+.cards {
+    margin: 20px;
+}
+

@@ -3,15 +3,15 @@ import { Col, Row, Container } from "../../components/Grid";
 import { Card,Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import emailjs from "emailjs-com";
+import "../Contact/Contact.css";
 
 // const cardTitleSyle = {display: 'flex',
 // alignItems: 'center',
 // justifyContent: 'center'
 // }
 
-const centerItem = { margin: "auto", width: "50%" }
 
-const inputWidth = {width: "500px"}
+
 
 
 function sendEmail(e) {
@@ -30,30 +30,31 @@ function sendEmail(e) {
 const Contact = () => {
     return (
         <Container fluid>
-            <Card style={centerItem}>
+            <Card>
+                <h3>Contact Brian</h3>
                 <Card.Body>
-            <Form className="contact-form" style={centerItem} onSubmit={sendEmail}>
+            <Form className="contact-form" onSubmit={sendEmail}>
             <Row className="row pt-5 mx-auto">
                 <Col size="-8 form-group pt-2 mx-auto">
-                    <input type="text" className="form-control" placeholder="Name" style={inputWidth} name="name"/>
+                    <input type="text" className="form-control" placeholder="Name" name="name"/>
                 </Col>
                 </Row>
                 <br/>
                 <Row className="row pt-5 mx-auto">
                 <Col size="-8 form-group pt -2 mx-auto">
-                    <input type="text" className="form-control" placeholder="Email Address" style={inputWidth} name="email"/>
+                    <input type="text" className="form-control" placeholder="Email Address" name="email"/>
                 </Col>
                 </Row>
                 <br/>
                 <Row className="row pt-5 mx-auto">
                 <Col size="-8 form-group pt-2 mx-auto">
-                    <input type="text" className="form-control" placeholder="Subject" style={inputWidth} name="subject"/>
+                    <input type="text" className="form-control" placeholder="Subject" name="subject"/>
                 </Col>
                 </Row>
                 <br/>
                 <Row className="row pt-5 mx-auto">
                 <Col size="-8 form-group pt-2 mx-auto">
-                    <textarea type="text" id="" cols="30" rows="8" className="form-control" style={inputWidth} placeholder="Your message" name="message"></textarea>
+                    <textarea type="text" id="" cols="30" rows="8" className="form-control" placeholder="Your message" name="message"></textarea>
                 </Col>
                 </Row>
                 <br/>
@@ -66,6 +67,7 @@ const Contact = () => {
             </Card.Body>
             </Card>
         </Container>
+        
     );
 };
 
