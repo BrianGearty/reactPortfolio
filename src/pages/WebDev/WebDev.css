@@ -38,13 +38,13 @@
     margin: 20px;
 }
 
-.github:hover {
+.githubBtn:hover {
     background-color: black;
     color: white;
     text-decoration: none;
 }
 
-.github {
+.githubBtn {
     background-color: white;
     color: black;
     text-align: center;

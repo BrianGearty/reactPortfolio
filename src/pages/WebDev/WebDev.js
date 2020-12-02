@@ -25,7 +25,7 @@ const WebDev = () => {
                                         <Card.Title className="cardHeader">{dev.name}</Card.Title>
                                         <Card.Text className="devText">{dev.text}</Card.Text>
                                         <button className="btn app"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.appUrl}`}}>Deploy The App</button>
-                                        <button className="btn github"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.githubUrl}`}}>Github Repository</button>
+                                        <button className="btn githubBtn"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.githubUrl}`}}>Github Repository</button>
                                         </div>
                                     </Card.Body>
                                 </div>
