@@ -38,3 +38,38 @@
     margin: 20px;
 }
 
+.github:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.github {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 1px;
+    border: 1px black solid;
+    margin: 2px;
+}
+.app:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.app {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 1px;
+    border: 1px black solid;
+    margin: 2px;
+}
+

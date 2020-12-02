@@ -6,7 +6,7 @@ import WebDev from "./pages/WebDev/WebDev";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header/Header";
-import './app.css'
+
 
 
 
