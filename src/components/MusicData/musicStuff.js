@@ -23,7 +23,7 @@ const data = [
 {
 "id": 4,
 "image":"assets/images/gedeonluke.jpg",
-"alt":"Brian Gearty on stage with Gedeon Luke & the People.",
+"alt":"Brian Gearty on stage with Gedon Luke & the People.",
 "artistName":"Gedeon Luke & the People",
 "text":"Gedeon and the band are an act to see. Forget about your day job. Forget about your struggles you're going to be hit with a wall of 'Peace, Love and Soul.' Gedeon grew up in Memphis and grasped the attention of producers all over the country when he made it to the final round of American Idol some years back. Its a big ole' soul band fusing Funk, Soul, Rock, Blues and Gospel music."
 },

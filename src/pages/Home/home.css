@@ -1,7 +1,9 @@
-.card-text {
+.homeTextDiv {
     display: inline-block;
-    padding: 50px 0 0 650px;
-    width: 90%;
+    position: absolute;
+    top: 270px;
+    left: 750px;
+    width: 150%;
 }
 
 .homeText {
@@ -13,6 +15,8 @@
     letter-spacing: .5px;
     line-height: 40px;
     text-align: left;
+    padding-top: 25px;
+    
 }
 
 
@@ -23,5 +27,31 @@
     letter-spacing: 1px;
     font-weight: 700;
     color: white;
-    padding: 50px 0 0 650px;
+    position: relative;
+    top:220px;
+    left:715px;
 }
+
+@media only screen and (max-width: 600px) {
+    .homeTextDiv {position: relative;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .homeTextDiv {position: relative;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .homeTextDiv {position: relative;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .homeTextDiv {position: relative;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .homeTextDiv {position: relative;}
+  }

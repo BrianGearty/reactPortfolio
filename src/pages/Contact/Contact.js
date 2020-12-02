@@ -66,8 +66,10 @@ const Contact = () => {
             </Form>
             </Card.Body>
             </Card>
+    <br/>
+    <br/>
+    <br/>
         </Container>
-        
     );
 };
 

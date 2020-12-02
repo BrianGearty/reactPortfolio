@@ -21,7 +21,7 @@
 .devCardStuff {
     display: inline-block;
     width: 50%;
-    padding: 200px 0;
+    padding: 100px 0;
     @media (max-width: 620px) {
     width: 100%;
     }
