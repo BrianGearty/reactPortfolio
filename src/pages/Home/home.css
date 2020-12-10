@@ -1,9 +1,13 @@
+.home {
+  
+}
+
 .homeTextDiv {
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 270px;
-    left: 750px;
-    width: 150%;
+    left: 650px;
+    width: 50%;
 }
 
 .homeText {
@@ -29,29 +33,29 @@
     color: white;
     position: relative;
     top:220px;
-    left:715px;
+    left:655px;
 }
 
-@media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 480px) {
     .homeTextDiv {position: relative;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 600px) {
     .homeTextDiv {position: relative;}
-  }
+  } 
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) {
     .homeTextDiv {position: relative;}
-  } 
+  }  
   
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  /*  Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 1024px) {
     .homeTextDiv {position: relative;}
-  } 
+  }  
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 1200px) {
     .homeTextDiv {position: relative;}
-  }
+  } 

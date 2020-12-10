@@ -1,9 +1,7 @@
 .navbar {
-    padding: 25px;
-    top: 0;
     z-index: 2;
-    width:100%
 }
+
 
 .nav-item {
     margin: 20px;
@@ -48,6 +46,10 @@
     position: fixed;
     top: 0;
     right: 0;
+}
+
+nav li {
+    padding-left: 3rem;
 }
 
 

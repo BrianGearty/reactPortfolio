@@ -23,7 +23,7 @@ const backgroundImg = {
 const Home = () => {
     return (
         <div className="home" style={backgroundImg} >
-        <Container fluid>
+        <Container fluid className="homeWrapper">
             <Row>
                 <div>
                     <Col size="lg-12">
