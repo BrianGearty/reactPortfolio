@@ -1,12 +1,34 @@
-.home {
-  
+body {
+  padding:0 ;
+  margin: 0;
+}
+.full-bg-size { 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-dim {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.jumbotron {
+  background-image: url(../../BackgroundImages/indexphoto.jpeg);
+  background-size: cover;
+
+}
+
+.homeCard-body{
+  margin-left: 35%;
 }
 
 .homeTextDiv {
     display: inline-block;
-    position: relative;
-    top: 270px;
-    left: 650px;
+    top: 225px;
     width: 50%;
 }
 
@@ -20,9 +42,7 @@
     line-height: 40px;
     text-align: left;
     padding-top: 25px;
-    
 }
-
 
 .homeTitle {
     margin: auto;
@@ -31,31 +51,138 @@
     letter-spacing: 1px;
     font-weight: 700;
     color: white;
-    position: relative;
-    top:220px;
-    left:655px;
 }
 
-    @media only screen and (max-width: 480px) {
-    .homeTextDiv {position: relative;}
+    @media (min-width: 320px) {
+    .jumbotron {background-size: cover;
+                background-position: center left;
+                border-radius: inherit;
+    }
+    .homeCard-body {margin-left: 5%;
+                    margin-top: 145px;
+    }
+    .homeTextDiv {text-align: left;
+                  width: 100%; 
+    }
+    .homeTitle {font-size: medium;
+
+    }
+    .homeText {font-size: medium;
+                line-height: 20px;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {
-    .homeTextDiv {position: relative;}
+    @media (min-width: 480px) {
+      .jumbotron {background-size: cover;
+                  background-position: left center;
+                  border-radius: inherit;
+    }
+    .homeCard-body {margin-left: 5%;
+                margin-top: 200px;
+    }
+    .homeTextDiv {text-align: left;
+              width: 100%; 
+    }
+    .homeTitle {font-size: large;
+
+    }
+    .homeText {font-size: medium;
+            line-height: 20px;}
   } 
+
+  @media (min-width: 600px) {
+    .jumbotron {background-size: cover;
+                background-position: left center;
+                border-radius: inherit;
+  }
+  .homeCard-body {
+    margin-left: 5%;
+    margin-top: 250px;
+  }
+  .homeTextDiv {text-align: left;
+            width: 100%; 
+  }
+  .homeTitle {font-size: 28px;
+
+  }
+  .homeText {font-size: 24px;
+          line-height: 40px;}
+} 
   
   /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
-    .homeTextDiv {position: relative;}
+    @media (min-width: 768px) {
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  border-radius: inherit;
+}
+.homeCard-body{
+  margin-left: 30%;
+  margin-top: 40px;
+}
+.homeTextDiv {
+  top: 105px;
+  width: 80%;
+}
+.homeTitle {
+  font-size: 28px;
+
+}
+.homeText {
+  font-size: 24px;
+  line-height: 30px;
+}
+    
   }  
   
   /*  Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 1024px) {
-    .homeTextDiv {position: relative;}
+    @media (min-width: 1024px) {
+      .jumbotron {
+        background-size: cover;
+        background-position: center;
+        border-radius: inherit;
+      }
+      .homeCard-body{
+        margin-left: 35%;
+        margin-top: 40px;
+      }
+      .homeTextDiv {
+        top: 105px;
+        width: 80%;
+      }
+      .homeTitle {
+        font-size: 28px;
+      
+      }
+      .homeText {
+        font-size: 24px;
+        line-height: 35px;
+      }
   }  
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
-    .homeTextDiv {position: relative;}
-  } 
+      .jumbotron {
+        background-size: cover;
+        background-position: center top;
+        border-radius: inherit;
+      }
+      .homeCard-body{
+        margin-left: 35%;
+        margin-top: 40px;
+      }
+      .homeTextDiv {
+        top: 105px;
+        width: 80%;
+      }
+      .homeTitle {
+        font-size: 28px;
+      
+      }
+      .homeText {
+        font-size: 24px;
+        line-height: 40px;
+      }
+  
+  }  

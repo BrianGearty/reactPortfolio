@@ -1,13 +1,13 @@
 const data = [ 
     {
-    "id": 1,
-    "image":"assets/images/goldenchild.jpg" ,
-    "alt":"Golden Child Meal Planner Index Page",
-    "name":"Golden Child Meal Planner",
-    "text":"This was the first group project I worked on. We decided on creating a meal planner for people with busy schedules to help plan their meals and grocery shopping weeks or even months ahead of time. We used HTML, CSS, JavaScript, Jquery, Ajax and Third Party API's. Try it out here!",
-    "appUrl": "https://briangearty.github.io/Golden-Child-Meal-Planner/",
-    "githubUrl": "https://github.com/BrianGearty/Golden-Child-Meal-Planner"
-},
+        "id": 1,
+        "image":"assets/images/maryjane.jpg",
+        "alt":"Mary Jane Market Index Page",
+        "name":"Mary Jane's Market",
+        "text":"My final project for Rutgers Full Stack Coding Bootcamp. With legalization being passed this November we thought it would be witty to set up an e-commerce and educational dispensary app as many New Jerseyans will be seeing dispensaries popping up around the state. This one was created utilizing the 'MERN' stack in which I handled all of the routes to and from the database starting with the user adding products to their cart, all of the logic that separately added products and their totals, as well as deleting items from the cart.",
+        "appUrl": "https://maryjanesmarket.herokuapp.com/#/",
+        "githubUrl": "https://github.com/BrianGearty/Mary-Janes-Market"
+    },
     {
     "id": 2,
     "image":"assets/images/lemarchefrancais.jpg",
@@ -17,15 +17,34 @@ const data = [
     "appUrl": "http://lemarchefrancais.herokuapp.com/",
     "githubUrl": "https://github.com/BrianGearty/Project_2"
 },
-    {
+{
     "id": 3,
+    "image":"assets/images/goldenchild.jpg" ,
+    "alt":"Golden Child Meal Planner Index Page",
+    "name":"Golden Child Meal Planner",
+    "text":"This was the first group project I worked on. We decided on creating a meal planner for people with busy schedules to help plan their meals and grocery shopping weeks or even months ahead of time. We used HTML, CSS, JavaScript, Jquery, Ajax and Third Party API's. Try it out here!",
+    "appUrl": "https://briangearty.github.io/Golden-Child-Meal-Planner/",
+    "githubUrl": "https://github.com/BrianGearty/Golden-Child-Meal-Planner"
+},
+    {
+    "id": 4,
     "image":"assets/images/musicquiz.jpg",
     "alt":"Music Quiz Index Page",
     "name":"Music Quiz",
-    "text":"This homework assignment we needed to create a quiz that would be generated at the click of a start button as well as a timer. This one was a lot of fun but a little challenging to get all the pieces working together. Take the quiz here! ",
+    "text":"This is a simple quiz app that begins with the click of a start button as well as a timer. This one was a lot of fun! Take the quiz here! ",
     "appUrl": "https://briangearty.github.io/QuizHomework/",
     "githubUrl": "https://github.com/BrianGearty/QuizHomework"
+},
+    {
+    "id": 5,
+    "image":"assets/images/weather.jpg",
+    "alt":"Weather Dashboard Index Page",
+    "name":"Weather Dashboard",
+    "text":"This is a simple weather application that gets the current weather for a selected city as well as the 5 day forecast. You can type any city into the search bar and it will show the weather for that city.",
+    "appUrl": "https://briangearty.github.io/WeatherDashboard/",
+    "githubUrl": "https://github.com/BrianGearty/WeatherDashboard"
 }
+
 ]
 
 export default data;

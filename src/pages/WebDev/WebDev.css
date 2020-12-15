@@ -1,4 +1,4 @@
-.cardHeader {
+.devCardHeader {
     text-align: left;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
@@ -14,7 +14,7 @@
     padding: 0;
 }
 
-.cardDeck {
+.devCardDeck {
     display: flex;
 }
 
@@ -22,29 +22,26 @@
     display: inline-block;
     width: 50%;
     padding: 100px 0;
-    @media (max-width: 620px) {
-    width: 100%;
-    }
 }
 
-.cardImage {
+.devCardImage {
     display: inline-block;
     width: 30%;
-    border: 3px black solid;
+    border: 2px black solid;
     margin-right: 100px;
 }
 
-.cards {
+.devCards {
     margin: 20px;
 }
 
-.githubBtn:hover {
+.project:hover {
     background-color: black;
     color: white;
     text-decoration: none;
 }
 
-.githubBtn {
+.project {
     background-color: white;
     color: black;
     text-align: center;
@@ -53,23 +50,158 @@
     font-size: large;
     letter-spacing: 1px;
     border: 1px black solid;
-    margin: 2px;
-}
-.app:hover {
-    background-color: black;
-    color: white;
-    text-decoration: none;
+    margin: 5px;
+    border-radius: none;
 }
 
-.app {
-    background-color: white;
-    color: black;
-    text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: large;
-    letter-spacing: 1px;
-    border: 1px black solid;
-    margin: 2px;
+@media (min-width: 320px) {
+    .devCardHeader {
+        display: inline-block;
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .devCardStuff {
+        display: inline-block;
+        width: 80%;
+        padding: 10px 0;
+    }
+    
+    .devCardImage {
+        display: inline-block;
+        width: 80%;
+        border: 3px black solid;
+    }
+    .devCards{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 480px) {
+    .devCardStuff {
+        display: inline-block;
+        width: 80%;
+        padding: 10px 0;
+    }
+    
+    .devCardImage {
+        display: inline-block;
+        width: 80%;
+        border: 3px black solid;
+    }
+    .devCards{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 600px) {
+    .devCardHeader {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .devCardStuff {
+        display: inline-block;
+        width: 40%;
+    }
+    
+    .devCardImage {
+        float: left;
+        display: inline-block;
+        width: 40%;
+        border: 3px black solid;
+    }
+    .devCards{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .devCardStuff {
+        display: inline-block;
+        width: 40%;
+        padding: 25px 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .devCardStuff {
+        display: inline-block;
+        width: 49.3%;
+        padding: 25px 0
+    }
+    .devCardHeader {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 28px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .devCardHeader {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 28px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    
+    .devText {
+        text-align: left;
+        font-family: 'Barlow', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 0;
+    }
+    
+    .devCardDeck {
+        display: flex;
+    }
+    
+    .devCardStuff {
+        display: inline-block;
+        width: 50%;
+        padding: 10% 0;
+    }
+    
+    .devCardImage {
+        display: inline-block;
+        width: 30%;
+        border: 3px black solid;
+        margin-right: 100px;
+    }
+    
+    .devCards {
+        margin: 20px;
+    }
 }
 

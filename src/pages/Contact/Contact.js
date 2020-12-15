@@ -1,17 +1,6 @@
 import React from "react";
-import { Col, Row, Container } from "../../components/Grid";
-import { Card,Form } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import emailjs from "emailjs-com";
 import "../Contact/Contact.css";
-
-// const cardTitleSyle = {display: 'flex',
-// alignItems: 'center',
-// justifyContent: 'center'
-// }
-
-
-
 
 
 function sendEmail(e) {
@@ -23,53 +12,50 @@ function sendEmail(e) {
         }, (error) => {
             console.log(error.text);
         });
-        e.target.reset();
-        alert("Your message has been sent!")
-}  
+    e.target.reset();
+    alert("Your message has been sent!")
+}
 
 const Contact = () => {
     return (
-        <Container fluid>
-            <Card>
-                <h3>Contact Brian</h3>
-                <Card.Body>
-            <Form className="contact-form" onSubmit={sendEmail}>
-            <Row className="row pt-5 mx-auto">
-                <Col size="-8 form-group pt-2 mx-auto">
-                    <input type="text" className="form-control" placeholder="Name" name="name"/>
-                </Col>
-                </Row>
-                <br/>
-                <Row className="row pt-5 mx-auto">
-                <Col size="-8 form-group pt -2 mx-auto">
-                    <input type="text" className="form-control" placeholder="Email Address" name="email"/>
-                </Col>
-                </Row>
-                <br/>
-                <Row className="row pt-5 mx-auto">
-                <Col size="-8 form-group pt-2 mx-auto">
-                    <input type="text" className="form-control" placeholder="Subject" name="subject"/>
-                </Col>
-                </Row>
-                <br/>
-                <Row className="row pt-5 mx-auto">
-                <Col size="-8 form-group pt-2 mx-auto">
-                    <textarea type="text" id="" cols="30" rows="8" className="form-control" placeholder="Your message" name="message"></textarea>
-                </Col>
-                </Row>
-                <br/>
-                <Row className="row pt-5 mx-auto">
-                <Col size="-8 form-group pt-3  mx-auto">
-                    <input type="submit" className="form-btn btn-info" value="Send message"></input>
-                </Col>  
-                </Row>
-            </Form>
-            </Card.Body>
-            </Card>
-    <br/>
-    <br/>
-    <br/>
-        </Container>
+        <div>
+        <div className="container email-container email-bg-pic">
+            <header className="education email-header">
+                <div className="row">
+                    <div className="col-md-12 ">
+                        <h2 className="email-title helllo text-center">CONTACT BRIAN</h2>
+                    </div>
+                </div>
+            </header>
+
+            <form onSubmit={sendEmail}>
+                <div className="row pt-5 mx-auto">
+                    <div className="col-8 form-group pt-2 mx-auto">
+                        <input type="text" className="form-control email-window" placeholder="Name" name="name" />
+                    </div>
+                    <div className="col-8 form-group pt-2 mx-auto">
+                        <input type="text" className="form-control email-window" placeholder="Email Address" name="email" />
+                    </div>
+                    <div className="col-8 form-group pt-2 mx-auto">
+                        <input type="text" className="form-control email-window" placeholder="Subject" name="subject" />
+                    </div>
+                    <div className="col-8 form-group pt-2 mx-auto">
+                        <textarea className="form-control email-window" type="text" id="" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
+                    </div>
+                    <div className="col-8 form-group mx-auto">
+                        <input type="submit" className="btn btn-email-send" value="Send Message"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+
     );
 };
 

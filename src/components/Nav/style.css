@@ -1,55 +1,49 @@
-.navbar {
-    z-index: 2;
-}
-
-
-.nav-item {
+.navLink {
     margin: 20px;
-    background-color: white;
+    background-color: #f6f6f6;
     color: black;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 1px;
+    padding: .2px 15px;
 }
 
 .navbar-brand {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-
-.nav-logo {
-    margin-left: 40px;
-    margin-top: 20px;
     height: 50px;
+    margin: 25px 0 0 25px;
+    background-color:black !important;
+    color: #f6f6f6 !important;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    padding: .5px 15px;
+
 }
 
-.nav-item:hover {
+.navbar-brand:hover {
+    height: 50px;
+    background-color:black !important;
+    color: #f6f6f6 !important;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    padding: .5px 15px;
+}
+
+.active, .navLink:hover {
     background-color: black;
     color: white;
     text-decoration: none;
-}
-
-.navbar__link--active {
-    background-color: black;
-    color: white;
-    outline: 5px ridge black;
-    padding-left: 2px;
-    padding-right: 2px;
-}
+} 
 
 .navbar-nav {
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-nav li {
-    padding-left: 3rem;
+    margin-top: 30px;
 }
 
 

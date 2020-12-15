@@ -1,29 +1,49 @@
-input[type=text] {
+
+.email-window {
     font-family: 'Barlow Condensed', sans-serif;
-    color: black;
+    color:black;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-input[type=submit] {
-    font-family: 'Barlow Condensed', sans-serif;
-    color: black;
+.email-container {
+    padding: 2rem 0 3rem 0;
+    margin: 3em auto;
+    -webkit-box-shadow: 3px 2px 5px 4px #ccc; 
+    -moz-box-shadow:    3px 2px 5px 4px #ccc;  
+    box-shadow:         3px 2px 5px 4px #ccc;
 }
 
-.card {
-    padding: 100px;
-    margin: auto;
-    width: 50%;
+.email-bg-pic {
+    background-color: black;
 }
 
-.form-control {
-    @media (max-width: 1020px) {
-        width: 100%;
-        }
-}
 
-h3 {
+.helllo {
     margin: auto;
     width: 50% ;
     font-family: 'Barlow Condensed', sans-serif;
-    color: black;
+    color: white;
+    text-shadow: rgb(164, 162, 162) 1px 1px;
+    font-size: xx-large;
+} 
+
+.btn-email-send {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(79, 79, 79, 0.8);
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 1px;
+    border: 1px black solid;
+    margin: 2px;
 }
+
+.btn-email-send:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
 

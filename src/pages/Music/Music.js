@@ -12,8 +12,7 @@ const Music = () => {
         <Container fluid>
             <Row className="row-divided">
                 <Col size="lg-12">
-                <div className="cardDeck">
-                    <CardDeck>
+                    <CardDeck className='mt-5 mb-5'>
                         {data.map((artist, i) => {
                             return (
                                 <div key={i} className="cards">
@@ -28,7 +27,6 @@ const Music = () => {
                             )
                         })}
                     </CardDeck>
-                </div>
                 </Col>
             </Row>
         </Container>
