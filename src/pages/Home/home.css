@@ -64,11 +64,11 @@ body {
     .homeTextDiv {text-align: left;
                   width: 100%; 
     }
-    .homeTitle {font-size: medium;
+    .homeTitle {font-size: 13px;
 
     }
-    .homeText {font-size: medium;
-                line-height: 20px;}
+    .homeText {font-size: 10px;
+                line-height: 15px;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */

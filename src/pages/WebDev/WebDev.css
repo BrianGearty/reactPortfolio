@@ -153,7 +153,7 @@
     .devCardHeader {
         text-align: left;
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: 28px;
+        font-size: 20px;
         letter-spacing: 1px;
         font-weight: 700;
     }
@@ -161,7 +161,7 @@
     .devText {
         text-align: left;
         font-family: 'Barlow', sans-serif;
-        font-size: 24px;
+        font-size: 15px;
         font-weight: 500;
     }
 }
@@ -190,12 +190,12 @@
     .devCardStuff {
         display: inline-block;
         width: 50%;
-        padding: 10% 0;
+        padding: 5% 0;
     }
     
     .devCardImage {
         display: inline-block;
-        width: 30%;
+        width: 40%;
         border: 3px black solid;
         margin-right: 100px;
     }
