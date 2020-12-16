@@ -24,7 +24,7 @@
 .cardImage {
     display: inline-block;
     width: 30%;
-    border: 3px black solid;
+    border: 4px black inset;
     float: left;
     margin-right: 100px;
 }
@@ -45,7 +45,7 @@
         float: left;
         display: inline-block;
         width: 80%;
-        border: 3px black solid;
+        border: 4px black inset;
         margin-left: auto;
     } 
     .cardStuff {
@@ -82,7 +82,7 @@
             float: left;
             display: inline-block;
             width: 50%;
-            border: 3px black solid;
+            border: 4px black inset;
         } 
         .cardStuff {
             display: inline-block;
@@ -133,7 +133,7 @@
     .cardImage {
         display: inline-block;
         width: 40%;
-        border: 3px black solid;
+        border: 4px black inset;
         float: left;
     }
     
@@ -168,7 +168,7 @@
         .cardImage {
             display: inline-block;
             width: 30%;
-            border: 3px black solid;
+            border: 4px black inset;
             float: left;
             
         }
@@ -214,7 +214,7 @@
     .cardImage {
         display: inline-block;
         width: 30%;
-        border: 3px black solid;
+        border: 4px black inset;
         float: left;
     }
     

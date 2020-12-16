@@ -16,7 +16,7 @@ const Home = () => {
                                 <div className="homeTextDiv">
                                 <div className="homeTitle">Web Developer & Session Musician</div>
                                     <p className="homeText">I am a bass player and session musician providing services to artists, bands, television productions, and educational institutions. I studied at The Collective School of Music in New York City under some of the worlds top session musicians. I have backed many different touring artists spanning countless genres including; Dana Fuchs, Nicole Atkins, Eric Lindell, Gedeon Luke, Evvie McKinney, Fly By Midnight, Corey Glover and more. </p>
-                                    <p className="homeText">Recently, I have been studying at Rutger's Full Stack Coding Bootcamp. I have been working with Javascript, jQuery, HTML, CSS, Handlebars, REST API, React, Node, MySQL, and MongoDB. </p>
+                                    <p className="homeText">As of December 2020 I am a graduate and certificate recipient from Rutgers University's Full Stack Coding Bootcamp. I am thoroughly versed in all aspects of Full Stack Development including, Javascript, jQuery, HTML, CSS, Handlebars, REST API, JSON, React, Node, MySQL, and MongoDB. One of my greatest strengths as a developer is being a great communicator. Working as a session musician for the past decade has taught me how to work as a team player and address problems in an effective and professional manner affirming the task at hand.</p>
                                 </div>
                             </div>
                         </div>

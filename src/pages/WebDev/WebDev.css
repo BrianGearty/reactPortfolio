@@ -27,7 +27,7 @@
 .devCardImage {
     display: inline-block;
     width: 30%;
-    border: 2px black solid;
+    border: 4px black inset;
     margin-right: 100px;
 }
 
@@ -80,7 +80,7 @@
     .devCardImage {
         display: inline-block;
         width: 80%;
-        border: 3px black solid;
+        border: 4px black inset;
     }
     .devCards{
         margin-left: 0;
@@ -129,7 +129,7 @@
         float: left;
         display: inline-block;
         width: 40%;
-        border: 3px black solid;
+        border: 4px black inset;
     }
     .devCards{
         margin-left: 0;
@@ -196,7 +196,7 @@
     .devCardImage {
         display: inline-block;
         width: 40%;
-        border: 3px black solid;
+        border: 4px black inset;
         margin-right: 100px;
     }
     
