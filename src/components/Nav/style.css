@@ -39,8 +39,6 @@
     background-color: black;
     color: white;
     text-decoration: none;
-    transition: width 2s, height 2s, transform 2s;
-
 } 
 
 .navbar-nav {

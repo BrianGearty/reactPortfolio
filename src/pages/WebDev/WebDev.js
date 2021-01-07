@@ -23,8 +23,8 @@ const WebDev = () => {
                                         <div className="devCardStuff">
                                         <Card.Title className="devCardHeader">{dev.name}</Card.Title>
                                         <Card.Text className="devText">{dev.text}</Card.Text>
-                                        <button className="project"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.appUrl}`}}>Deploy The App</button>
-                                        <button className="project"     onClick={(e) => {e.preventDefault(); window.location.href=`${dev.githubUrl}`}}>Github Repository</button>
+                                        <button className="project" onClick={(e) => {e.preventDefault(); window.location.href=`${dev.appUrl}`}}>Deploy The App</button>
+                                        <button className="project" onClick={(e) => {e.preventDefault(); window.location.href=`${dev.githubUrl}`}}>Github Repository</button>
                                         </div>
                                     </Card.Body>
                                 </div>
