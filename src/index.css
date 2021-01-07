@@ -1,6 +1,7 @@
-body {
+#root {
     background-color: #f6f6f6;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+    -moz-osx-font-smoothing: grayscale; 
+    }
 
+    

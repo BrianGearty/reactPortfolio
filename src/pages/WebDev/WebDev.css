@@ -1,3 +1,4 @@
+
 .devCardHeader {
     text-align: left;
     font-family: 'Barlow Condensed', sans-serif;
@@ -14,10 +15,6 @@
     padding: 0;
 }
 
-.devCardDeck {
-    display: flex;
-}
-
 .devCardStuff {
     display: inline-block;
     width: 50%;
@@ -25,9 +22,9 @@
 }
 
 .devCardImage {
-    display: inline-block;
     width: 30%;
-    border: 4px black inset;
+    border: 1px rgb(0, 0, 0, .75) solid !important;
+    float: left;
     margin-right: 100px;
 }
 
@@ -36,21 +33,23 @@
 }
 
 .project:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
 }
 
 .project {
-    background-color: white;
-    color: black;
+    float: left !important;
+    background-color: black;
+    color: white;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
-    font-size: large;
+    font-size: 20px;
     letter-spacing: 1px;
-    border: 1px black solid;
-    margin: 5px;
+    border: 4px black solid;
+    margin: 30px 10px 5px 5px;
+    padding: 8px;
     border-radius: none;
 }
 
@@ -80,7 +79,7 @@
     .devCardImage {
         display: inline-block;
         width: 80%;
-        border: 4px black inset;
+        border: 6px black inset;
     }
     .devCards{
         margin-left: 0;
@@ -97,7 +96,7 @@
     .devCardImage {
         display: inline-block;
         width: 80%;
-        border: 3px black solid;
+        border: 6px black solid;
     }
     .devCards{
         margin-left: 0;
@@ -127,9 +126,8 @@
     
     .devCardImage {
         float: left;
-        display: inline-block;
         width: 40%;
-        border: 4px black inset;
+        border: 6px black inset;
     }
     .devCards{
         margin-left: 0;
@@ -189,14 +187,14 @@
     
     .devCardStuff {
         display: inline-block;
-        width: 50%;
+        width: 40%;
         padding: 5% 0;
     }
     
     .devCardImage {
         display: inline-block;
-        width: 40%;
-        border: 4px black inset;
+        width: 30%;
+        border: 6px black inset;
         margin-right: 100px;
     }
     

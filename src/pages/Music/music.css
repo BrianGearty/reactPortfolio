@@ -1,3 +1,4 @@
+
 .cardHeader {
     text-align: left;
     font-family: 'Barlow Condensed', sans-serif;
@@ -20,11 +21,9 @@
     padding: 200px 0;
 }
 
-
 .cardImage {
-    display: inline-block;
     width: 30%;
-    border: 4px black inset;
+    border: 1px rgb(0, 0, 0, .75) solid !important;
     float: left;
     margin-right: 100px;
 }
@@ -32,7 +31,6 @@
 .cards {
     margin: 20px;
 }
-
 
 @media (min-width: 320px) {
     .cards {
@@ -43,9 +41,7 @@
     }
     .cardImage {
         float: left;
-        display: inline-block;
         width: 80%;
-        border: 4px black inset;
         margin-left: auto;
     } 
     .cardStuff {
@@ -80,9 +76,7 @@
         }
         .cardImage {
             float: left;
-            display: inline-block;
             width: 50%;
-            border: 4px black inset;
         } 
         .cardStuff {
             display: inline-block;
@@ -131,9 +125,7 @@
         
     }
     .cardImage {
-        display: inline-block;
         width: 40%;
-        border: 4px black inset;
         float: left;
     }
     
@@ -166,11 +158,8 @@
         }
         
         .cardImage {
-            display: inline-block;
             width: 30%;
-            border: 4px black inset;
             float: left;
-            
         }
         
         .cards {
@@ -206,15 +195,13 @@
     
     .cardStuff {
         display: inline-block;
-        width: 60%;
+        width: 40%;
         padding: 10% 0;
     }
     
     
     .cardImage {
-        display: inline-block;
         width: 30%;
-        border: 4px black inset;
         float: left;
     }
     

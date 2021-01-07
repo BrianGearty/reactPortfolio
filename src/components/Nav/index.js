@@ -11,7 +11,8 @@ function Navigation() {
     <nav className="navbar navbar-expand-lg ">
   <NavLink className="navbar-brand" to="/">BRIAN GEARTY</NavLink>
   <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i className="fa fa-plus" aria-hidden="true"></i></span>
+    {/* <span><i className="fa fa-plus" aria-hidden="true"></i></span> */}
+    <span><img className="plus" src='../../assets/images/plus.svg' alt="plus sign" aria-hidden="true"></img></span>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarTogglerDemo02">

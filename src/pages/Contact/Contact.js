@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "../Contact/Contact.css";
+import Footer from "../../components/Footer";
 
 
 function sendEmail(e) {
@@ -18,12 +19,13 @@ function sendEmail(e) {
 
 const Contact = () => {
     return (
-        <div>
+        <div className="contactFade">
         <div className="container email-container email-bg-pic">
             <header className="education email-header">
                 <div className="row">
                     <div className="col-md-12 ">
                         <h2 className="email-title helllo text-center">CONTACT BRIAN</h2>
+                        <p className="emailText">Interested in working together? Get in touch below.</p>
                     </div>
                 </div>
             </header>
@@ -53,7 +55,14 @@ const Contact = () => {
         <br />
         <br />
         <br />
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Footer />
     </div>
 
     );

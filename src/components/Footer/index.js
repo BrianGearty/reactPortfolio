@@ -1,12 +1,23 @@
 import React from "react";
 import "./style.css"
+import { Button } from "react-bootstrap"
 
 
 
 function Footer() {
 
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
     return (
     <footer className='footer'>
+        <i variant="info" onClick={topFunction} className="fa fa-long-arrow-up" id="myBtn " title="Go to top"></i>
+        <br />
+        <br />
+        <br />
+        <br />
         <div >
         <a href="https://www.facebook.com/brian.gearty.7/"><img src="../assets/images/facebooklogo.svg" alt="Facebook logo" className="facebook aTag"></img></a>
         <a href="https://www.instagram.com/briangearty/?hl=en"><img src="../assets/images/instagramlogo.svg" alt="Instagram logo" className="instagram aTag"></img></a>

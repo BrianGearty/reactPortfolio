@@ -6,8 +6,6 @@ import Music from "./pages/Music/Music";
 import WebDev from "./pages/WebDev/WebDev";
 import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contact/Contact";
-
-import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper/Wrapper";
 
@@ -17,7 +15,6 @@ import Wrapper from "./components/Wrapper/Wrapper";
 function App() {
   return (
     <div className="App">
-      <div id="jumbotron"></div>
       <Wrapper>
     <Router>
     <Nav />
@@ -29,7 +26,6 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Switch>
     </Router>
-      <Footer />
       </Wrapper>
       </div>
   );

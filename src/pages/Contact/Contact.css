@@ -1,9 +1,10 @@
 
+
 .email-window {
     font-family: 'Barlow Condensed', sans-serif;
-    color:black;
+    color: black;
     font-size: large;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
 }
 
 .email-container {
@@ -25,12 +26,22 @@
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
     text-shadow: rgb(164, 162, 162) 1px 1px;
-    font-size: xx-large;
+    font-size: 50px;
+} 
+
+.emailText {
+    margin: 35px auto 5px auto;
+    text-align: center;
+    width: 50%;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-shadow: black;
+    font-size: x-large;
 } 
 
 .btn-email-send {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(79, 79, 79, 0.8);
+    background-color: white;
+    color: black;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
