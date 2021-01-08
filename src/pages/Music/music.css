@@ -26,6 +26,7 @@
     border: 1px rgb(0, 0, 0, .75) solid !important;
     float: left;
     margin-right: 100px;
+    border-radius: 0;
 }
 
 .cards {

@@ -10,9 +10,6 @@
 .email-container {
     padding: 2rem 0 3rem 0;
     margin: 3em auto;
-    -webkit-box-shadow: 3px 2px 5px 4px #ccc; 
-    -moz-box-shadow:    3px 2px 5px 4px #ccc;  
-    box-shadow:         3px 2px 5px 4px #ccc;
 }
 
 .email-bg-pic {
@@ -25,8 +22,7 @@
     width: 50% ;
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
-    text-shadow: rgb(164, 162, 162) 1px 1px;
-    font-size: 50px;
+    font-size: 30px;
 } 
 
 .emailText {
@@ -36,7 +32,7 @@
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
     text-shadow: black;
-    font-size: x-large;
+    font-size: 20px;
 } 
 
 .btn-email-send {

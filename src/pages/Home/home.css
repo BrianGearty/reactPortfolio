@@ -70,11 +70,11 @@
     .homeTextDiv {text-align: left;
                   width: 100%; 
     }
-    .homeTitle {font-size: 20px;
+    .homeTitle {font-size: 16px;
 
     }
     .homeText {font-size: 15px;
-                line-height: 20px;}
+                line-height: 25px;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -117,15 +117,16 @@
     @media (min-width: 768px) {
 
 .jumbotron {
-  background-position: center;
+  background-size: cover;
+                background-position: left center;
 }
 .homeCard-body{
-  margin-left: 30%;
-  margin-top: 40px;
+  margin-left: 10%;
+  margin-top: 150px;
 }
 .homeTextDiv {
   top: 205px;
-  width: 70%;
+  width: 90%;
 }
 .homeTitle {
   font-size: 28px;
@@ -143,18 +144,19 @@
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
       .jumbotron {
-        background-position: center;
+        background-size: cover;
+                background-position: left center;
       }
       .homeCard-body{
-        margin-left: 35%;
-        margin-top: 40px;
+        margin-left: 5%;
+        margin-top: 300px;
       }
       .homeTextDiv {
-        top: 205px;
-        width: 70%;
+        width: 80%;
       }
       .homeTitle {
         font-size: 24px;
+        text-align: center;
       
       }
       .homeText {

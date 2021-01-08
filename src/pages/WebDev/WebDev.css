@@ -26,6 +26,7 @@
     border: 1px rgb(0, 0, 0, .75) solid !important;
     float: left;
     margin-right: 100px;
+    border-radius: 0;
 }
 
 .devCards {
@@ -139,6 +140,12 @@
         display: inline-block;
         width: 40%;
         padding: 25px 0;
+    }
+
+    .project{
+        float: left !important;
+        font-size: 15px;
+        margin: 15px 10px 0px 0px;
     }
 }
 

@@ -38,9 +38,9 @@
     font-weight: 500;
     color: white;
     letter-spacing: .5px;
-    line-height: 30px;
+    line-height: 25px;
     text-align: left;
-    margin: 15px 15px 35px;
+    margin: 3px 15px 10px;
 
 }
 
@@ -125,3 +125,35 @@
     background-color: black;
     padding-right: 5px;
 }
+
+@media (min-width: 320px) {
+    .resumeTitle{
+        font-size: 15px;
+    }
+
+    .companyName{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .duration{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .resumeTitle{
+        font-size: 35px;
+    }
+    .companyName{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .duration{
+
+    }
+}
+

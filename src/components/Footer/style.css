@@ -11,33 +11,26 @@
 }
 
 #myBtn{
-    cursor: pointer;
     padding-top: 10px;
     padding-left: 18px;
     padding-bottom: 5px;
     padding-right: 18px; 
     font-size: 25px;
     border-radius: 0;
-  }
-
-#myBtn.active {
-    border: none !important;
-    outline: none !important;
 }
-
 
 .fa {
     background-color: black;
     float: right;
     position: fixed;
     bottom: 50px;
-    right: 25px;
+    right: 18px;
     z-index: 99;
     color: white;
-    padding-top: 10px;
-    padding-left: 18px;
+    padding-top: 5px;
+    padding-left: 15px;
     padding-bottom: 5px;
-    padding-right: 18px; 
+    padding-right: 15px; 
     font-size: 45px;
     border-radius: 0;
     border: 4px black solid;
@@ -46,6 +39,17 @@
 .fa:hover {
     background-color: white;
     color: black;
+}
+
+@media (max-width: 320px){
+    .fa{
+        right: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-right: 10px; 
+        font-size: 45px;
+    }
 }
 
 

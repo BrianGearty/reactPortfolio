@@ -6,8 +6,6 @@ import "../Resume/Resume.css"
 import Footer from "../../components/Footer";
 
 
-
-
 const Resume = () => {
     const flipAnimation = keyframes`${fadeIn}`;
     const Flip = styled.div `animation: 1s ${flipAnimation};`;
@@ -17,8 +15,6 @@ const Resume = () => {
                 <Row className="row-divided">
                     <Col size="lg-8">
                         <div className='resume'>
-
-                            
                             <Flip><h2><span className="resumeTitle">TOURING + PROFESSIONAL EXPERIENCE</span></h2></Flip>
                             <br />
                             <br />
@@ -65,19 +61,21 @@ const Resume = () => {
                     
                         <div className="skills">
                             <Flip><h2><span className="resumeTitle">TECHNICAL SKILLS</span></h2></Flip>
+                            <br />
+                            <br />
                             <ul className="fa-ul">
                                 <Flip><li className="skillList"><i className="fab fa-html5"></i>HTML 5</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-css3"></i>CSS3</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-js"></i>Javascript</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-node"></i>Node.js</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-react"></i>React</li></Flip>
-                                <Flip><li className="skillList"><img className='jqueryLogo' src="assets/images/jQuery.png"></img>jQuery</li></Flip>
-                                <Flip><li className="skillList sql"><img className='mysqlLogo' src="assets/images/mySQL.jpg"></img>MySQL</li></Flip>
-                                <Flip><li className="skillList"><img className='mongoDBLogo' src="assets/images/mongodb.png"></img>MongoDB</li></Flip>
-                                <Flip><li className="skillList"><img className='restApiLogo' src="assets/images/restApi.png"></img>REST API</li></Flip>
-                                <Flip><li className="skillList"><img className='jsonLogo' src="assets/images/json.png"></img>JSON</li></Flip>
-                                <Flip><li className="skillList"><img className='expressLogo' src="assets/images/express.png"></img>Express</li></Flip>
-                                <Flip><li className="skillList"><img className='herokuLogo' src="assets/images/heroku.png"></img>Heroku</li></Flip>
+                                <Flip><li className="skillList"><img className='jqueryLogo' src="assets/images/jQuery.png" alt="jQuery logo"></img>jQuery</li></Flip>
+                                <Flip><li className="skillList sql"><img className='mysqlLogo' src="assets/images/mySQL.jpg" alt="SQL logo"></img>MySQL</li></Flip>
+                                <Flip><li className="skillList"><img className='mongoDBLogo' src="assets/images/mongodb.png" alt="mongo logo"></img>MongoDB</li></Flip>
+                                <Flip><li className="skillList"><img className='restApiLogo' src="assets/images/restApi.png" alt="restAPI logo"></img>REST API</li></Flip>
+                                <Flip><li className="skillList"><img className='jsonLogo' src="assets/images/json.png" alt="JSON logo"></img>JSON</li></Flip>
+                                <Flip><li className="skillList"><img className='expressLogo' src="assets/images/express.png" alt="express logo"></img>Express</li></Flip>
+                                <Flip><li className="skillList"><img className='herokuLogo' src="assets/images/heroku.png" alt="heroku logo"></img>Heroku</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-github"></i>Git</li></Flip>
                             </ul>
                         </div>
