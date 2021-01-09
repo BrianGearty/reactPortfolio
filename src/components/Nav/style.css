@@ -25,17 +25,6 @@
     padding-bottom: .5px!important;
 }
 
-/* .navbar-brand:hover {
-    height: 50px;
-    background-color:black !important;
-    color: #f6f6f6 !important;
-    text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 500;
-    font-size: xx-large;
-    letter-spacing: 1px;
-    padding: .5px 15px;
-} */
 
 .active, .navLink:hover {
     background-color: black;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from 'styled-components';
-import { bounceInLeft, fadeIn } from 'react-animations';
+import { fadeIn } from 'react-animations';
 import { Col, Row, Container } from "../../components/Grid";
 import { Card, CardImg, CardDeck } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -10,8 +10,6 @@ import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper/Wrapper";
 
 
-
-
 function App() {
   return (
     <div className="App">
