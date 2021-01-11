@@ -5,8 +5,9 @@
 }
 
 .jumbotron {    
-  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed;
-  background-size: 100%;
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center;
+  background-size: auto 100%;
+  background-attachment: fixed;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -86,7 +87,6 @@
     @media (min-width: 480px) {
       .jumbotron {
                   background-position: left center;
-                  background-attachment: fixed;
                 height:210vh;
     }
     .homeCard-body {margin-left: 5%;
@@ -106,7 +106,6 @@
   @media only screen and (min-width: 600px) {
     .jumbotron {
                 background-position: left center;
-                background-attachment: fixed;
                 height:250vh;
   }
   .homeCard-body {
@@ -129,7 +128,6 @@
 
 .jumbotron {
                 background-position: left center;
-                background-attachment: fixed;
                 height:250vh;
 }
 .homeCard-body{
@@ -181,7 +179,6 @@
     @media(min-width: 1200px) {
       .jumbotron {
                 background-position: top center;
-                background-attachment: fixed;
                 height:280vh;
 
       }
