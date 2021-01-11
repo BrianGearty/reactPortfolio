@@ -5,14 +5,12 @@
 }
 
 .jumbotron {    
-  background-image: url(../../BackgroundImages/indexphoto.jpg);
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
@@ -60,30 +58,37 @@
 }
 
     @media (min-width: 320px) {
-    .jumbotron {background-size: cover;
-                background-position: center left;
-                border-radius: inherit;
-                background-attachment: scroll;
+    .jumbotron {border-radius: inherit;
+                background-position: left;
+                min-height:310vh;
     }
-    .homeCard-body {margin-left: 5%;
+    .homeCard-body {margin-left: 10%;
                     margin-top: 145px;
     }
     .homeTextDiv {text-align: left;
                   width: 100%; 
     }
     .homeTitle {font-size: 16px;
+      text-align: center;
 
     }
     .homeText {font-size: 15px;
                 line-height: 25px;}
   }
   
-
+  @media (min-width: 374px) {
+    .jumbotron {background-size: cover;
+      background-position: left center;
+      border-radius: inherit;
+      height:240vh;
+  }
+}
   /* Small devices (portrait tablets and large phones, 600px and up) */
     @media (min-width: 480px) {
       .jumbotron {background-size: cover;
                   background-position: left center;
-                  background-attachment: scroll;
+                  background-attachment: fixed;
+                height:210vh;
     }
     .homeCard-body {margin-left: 5%;
                 margin-top: 200px;
@@ -92,25 +97,28 @@
               width: 100%; 
     }
     .homeTitle {font-size: 25px;
+      text-align: center;
 
     }
     .homeText {font-size: 20px;
-            line-height: 20px;}
+            line-height: 25px;}
   } 
 
   @media only screen and (min-width: 600px) {
     .jumbotron {background-size: cover;
-                background-position: center;
-                background-attachment: scroll;
+                background-position: left center;
+                background-attachment: fixed;
+                height:250vh;
   }
   .homeCard-body {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 250px;
   }
   .homeTextDiv {text-align: left;
-            width: 100%; 
+            width: 90%; 
   }
   .homeTitle {font-size: 28px;
+    text-align: center;
 
   }
   .homeText {font-size: 24px;
@@ -123,6 +131,8 @@
 .jumbotron {
   background-size: cover;
                 background-position: left center;
+                background-attachment: fixed;
+                height:250vh;
 }
 .homeCard-body{
   margin-left: 10%;
@@ -134,10 +144,11 @@
 }
 .homeTitle {
   font-size: 28px;
+  text-align: center;
 
 }
 .homeText {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -149,17 +160,17 @@
     @media (min-width: 1024px) {
       .jumbotron {
         background-size: cover;
-                background-position: left center;
+        background-position: center left;
       }
       .homeCard-body{
         margin-left: 5%;
         margin-top: 300px;
       }
       .homeTextDiv {
-        width: 80%;
+        width: 90%;
       }
       .homeTitle {
-        font-size: 24px;
+        font-size: 30px;
         text-align: center;
       
       }
@@ -170,26 +181,31 @@
   }  
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
+    @media(min-width: 1200px) {
       .jumbotron {
-        background-position: center top;
+        
+        background-size: cover;
+                background-position: top center;
+                background-attachment: fixed;
+                height:280vh;
+
       }
       .homeCard-body{
         margin-left: 35%;
-        margin-top: 40px;
+        margin-top: 10px;
       }
       .homeTextDiv {
-        padding-top: 205px;
-        width: 70%;
+        padding-top: 55px;
+        width: 90%;
       }
       .homeTitle {
-        font-size: 60px;
+        font-size: 40px;
       
       }
       .homeText {
-        font-size: 25px;
+        font-size: 23px;
         line-height: 40px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         font-weight: 600;
       }
   }  

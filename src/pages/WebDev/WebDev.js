@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 import { Col, Row, Container } from "../../components/Grid";
@@ -7,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../WebDev/WebDev.css";
 import data from "../../components/WebDevData/webdev"
 import Footer from "../../components/Footer";
+import Loading from "../../components/Loading/loading";
 
 
 const WebDev = () => {
@@ -26,13 +28,16 @@ const WebDev = () => {
                             return (
                                 <div key={i} className="devCards">
                                     <Card.Body>
+                                        <LazyLoad once height="100%" placeholder={<Loading />}>
                                         <CardImg className='devCardImage' src={dev.image} alt={dev.alt}></CardImg>
+                                        
                                         <div className="devCardStuff">
                                         <FadeRight><Card.Title className="devCardHeader">{dev.name}</Card.Title></FadeRight>
                                         <FadeRight><Card.Text className="devText">{dev.text}</Card.Text></FadeRight>
-                                        <FadeRight><button className="project" onClick={(e) => {e.preventDefault(); window.location.href=`${dev.appUrl}`}}>Deploy The App</button></FadeRight>
-                                        <FadeRight><button className="project" onClick={(e) => {e.preventDefault(); window.location.href=`${dev.githubUrl}`}}>Github Repository</button></FadeRight>
+                                        <FadeRight><a href={dev.appUrl}><button className="project">Deploy The App</button></a></FadeRight>
+                                        <FadeRight><a href={dev.githubUrl}><button className="project">Github Repository</button></a></FadeRight>
                                         </div>
+                                        </LazyLoad>
                                     </Card.Body>
                                 </div>
                             )
@@ -44,6 +49,7 @@ const WebDev = () => {
         <Footer />
         </div>
     );
+
 };
 
 export default WebDev;

@@ -5,7 +5,7 @@ const data = [
         "alt":"Mary Jane's Market",
         "name":"Mary Jane's Market",
         "text":"My final project for Rutgers Full Stack Coding Bootcamp. With legalization being passed this November we thought it would be witty to set up an e-commerce and educational dispensary app as many New Jerseyans will be seeing dispensaries popping up around the state. This one was created utilizing the 'MERN' stack in which I handled all of the routes to and from the database starting with the user adding products to their cart, all of the logic that separately added products and their totals, as well as deleting items from the cart.",
-        "appUrl": "https://maryjanesmarket.herokuapp.com/#/",
+        "appUrl": "https://maryjanesmarket.herokuapp.com/",
         "githubUrl": "https://github.com/BrianGearty/Mary-Janes-Market"
     },
     {
@@ -14,7 +14,7 @@ const data = [
     "alt":"French Market",
     "name":"Le Marché Français",
     "text":"Developed an app that allows a user to virtually shop a fresh marketplace from the comfort of their home and check out to pick up their order.",
-    "appUrl": "http://lemarchefrancais.herokuapp.com/",
+    "appUrl": "https://lemarchefrancais.herokuapp.com/",
     "githubUrl": "https://github.com/BrianGearty/Project_2"
 },
 {

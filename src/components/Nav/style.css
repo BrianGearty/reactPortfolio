@@ -56,6 +56,11 @@
     box-shadow: none;
     }
 
+    @media (max-width: 540px) {
+        .navbar-brand{margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left:20px}
+    }
 
 
 

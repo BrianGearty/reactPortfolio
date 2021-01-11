@@ -140,6 +140,9 @@
     .duration{
         font-size: 12px;
     }
+    .jobTitle{
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -151,9 +154,6 @@
     }
     .description{
         font-size: 20px;
-    }
-    .duration{
-
     }
 }
 

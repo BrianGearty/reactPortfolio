@@ -80,7 +80,7 @@
     .devCardImage {
         display: inline-block;
         width: 80%;
-        border: 6px black inset;
+
     }
     .devCards{
         margin-left: 0;
@@ -97,11 +97,8 @@
     .devCardImage {
         display: inline-block;
         width: 80%;
-        border: 6px black solid;
     }
-    .devCards{
-        margin-left: 0;
-    }
+    
 }
 
 @media (min-width: 600px) {
@@ -128,14 +125,13 @@
     .devCardImage {
         float: left;
         width: 40%;
-        border: 6px black inset;
     }
     .devCards{
         margin-left: 0;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .devCardStuff {
         display: inline-block;
         width: 40%;
@@ -149,7 +145,7 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     .devCardStuff {
         display: inline-block;
         width: 49.3%;
@@ -171,7 +167,7 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .devCardHeader {
         text-align: left;
         font-family: 'Barlow Condensed', sans-serif;
@@ -201,7 +197,6 @@
     .devCardImage {
         display: inline-block;
         width: 30%;
-        border: 6px black inset;
         margin-right: 100px;
     }
     
