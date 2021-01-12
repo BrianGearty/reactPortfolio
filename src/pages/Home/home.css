@@ -6,10 +6,10 @@
 
 .jumbotron {    
   background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed;
-  background-size: cover ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover ;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
