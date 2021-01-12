@@ -79,7 +79,7 @@
   
   @media (min-width: 374px) {
     .jumbotron {
-      background-position: left center;
+      background-position: left;
       border-radius: inherit;
       height:240vh;
   }
