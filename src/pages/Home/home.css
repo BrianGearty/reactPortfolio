@@ -6,7 +6,7 @@
 
 
 .backgroundImg {  
-  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat top left fixed;
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat left center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
