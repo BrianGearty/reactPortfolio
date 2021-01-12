@@ -11,7 +11,7 @@ const Home = () => {
     const FadeUp = styled.div `animation: 1s ${fadeUpAnimation};`;
 
     return (
-        <div className="jumbotron bg-dim">
+        <div className="backgroundImg bg-dim">
         <Container fluid className="homeWrapper">
             <Row>
                 <div>
