@@ -1,10 +1,11 @@
 
 .bg-dim {
   min-width: 100%;
-  min-height:100%
+  min-height:100%;
 }
 
-.backgroundImg {    
+
+.backgroundImg {  
   background: url(../../BackgroundImages/indexphoto.jpg) no-repeat top left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,6 +15,7 @@
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
   margin: 0;
+  background-color: black;
 } 
 
 @keyframes fadeInAnimation { 

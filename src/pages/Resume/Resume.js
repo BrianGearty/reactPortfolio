@@ -1,9 +1,11 @@
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 import { Col, Row, Container } from "../../components/Grid";
 import "../Resume/Resume.css"
 import Footer from "../../components/Footer";
+import Loading from "../../components/Loading/loading";
 
 
 const Resume = () => {
@@ -63,6 +65,7 @@ const Resume = () => {
                             <Flip><h2><span className="resumeTitle">TECHNICAL SKILLS</span></h2></Flip>
                             <br />
                             <br />
+                            <LazyLoad once height="100%" placeholder={<Loading />}>
                             <ul className="fa-ul">
                                 <Flip><li className="skillList"><i className="fab fa-html5"></i>HTML 5</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-css3"></i>CSS3</li></Flip>
@@ -78,6 +81,7 @@ const Resume = () => {
                                 <Flip><li className="skillList"><img className='herokuLogo' src="assets/images/heroku.png" alt="heroku logo"></img>Heroku</li></Flip>
                                 <Flip><li className="skillList"><i className="fab fa-github"></i>Git</li></Flip>
                             </ul>
+                            </LazyLoad>
                         </div>
                     </Col>
                 </Row>
