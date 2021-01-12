@@ -5,9 +5,8 @@
 }
 
 .jumbotron {    
-  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center;
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed;
   background-size: auto 100%;
-  background-attachment: fixed;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -23,7 +22,7 @@
   } 
   100% { 
       opacity: 1; 
-   } 
+  } 
 }
 
 .homeCard-body{
