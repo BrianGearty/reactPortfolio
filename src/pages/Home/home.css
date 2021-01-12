@@ -59,7 +59,7 @@
     @media (min-width: 320px) {
     .jumbotron {border-radius: inherit;
                 background-position: left;
-                
+                min-height:310vh;
     }
     .homeCard-body {margin-left: 10%;
                     margin-top: 145px;
