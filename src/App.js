@@ -7,13 +7,11 @@ import WebDev from "./pages/WebDev/WebDev";
 import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contact/Contact";
 import Nav from "./components/Nav";
-import Wrapper from "./components/Wrapper/Wrapper";
 
 
 function App() {
   return (
     <div className="App">
-      <Wrapper>
     <Router>
     <Nav />
           <Switch>
@@ -24,7 +22,6 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Switch>
     </Router>
-      </Wrapper>
       </div>
   );
 }

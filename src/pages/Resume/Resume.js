@@ -1,9 +1,10 @@
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 import { Col, Row, Container } from "../../components/Grid";
 import "../Resume/Resume.css"
-import Footer from "../../components/Footer";
+import Loading from "../../components/Loading/loading";
 
 
 const Resume = () => {
@@ -63,26 +64,27 @@ const Resume = () => {
                             <Flip><h2><span className="resumeTitle">TECHNICAL SKILLS</span></h2></Flip>
                             <br />
                             <br />
+                            <LazyLoad once height="100%" placeholder={<Loading />}>
                             <ul className="fa-ul">
-                                <Flip><li className="skillList"><i className="fab fa-html5"></i>HTML 5</li></Flip>
-                                <Flip><li className="skillList"><i className="fab fa-css3"></i>CSS3</li></Flip>
-                                <Flip><li className="skillList"><i className="fab fa-js"></i>Javascript</li></Flip>
-                                <Flip><li className="skillList"><i className="fab fa-node"></i>Node.js</li></Flip>
-                                <Flip><li className="skillList"><i className="fab fa-react"></i>React</li></Flip>
-                                <Flip><li className="skillList"><img className='jqueryLogo' src="assets/images/jQuery.png" alt="jQuery logo"></img>jQuery</li></Flip>
-                                <Flip><li className="skillList sql"><img className='mysqlLogo' src="assets/images/mySQL.jpg" alt="SQL logo"></img>MySQL</li></Flip>
-                                <Flip><li className="skillList"><img className='mongoDBLogo' src="assets/images/mongodb.png" alt="mongo logo"></img>MongoDB</li></Flip>
-                                <Flip><li className="skillList"><img className='restApiLogo' src="assets/images/restApi.png" alt="restAPI logo"></img>REST API</li></Flip>
-                                <Flip><li className="skillList"><img className='jsonLogo' src="assets/images/json.png" alt="JSON logo"></img>JSON</li></Flip>
-                                <Flip><li className="skillList"><img className='expressLogo' src="assets/images/express.png" alt="express logo"></img>Express</li></Flip>
-                                <Flip><li className="skillList"><img className='herokuLogo' src="assets/images/heroku.png" alt="heroku logo"></img>Heroku</li></Flip>
-                                <Flip><li className="skillList"><i className="fab fa-github"></i>Git</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/HTML5_logo_and_wordmark.png" alt="HTML logo"></img>HTML 5</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/css3.png" alt="CSS logo"></img>CSS3</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/javascript.png" alt="javascript logo"></img>Javascript</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/nodejs-new-white.png" alt="Node logo"></img>Node.js</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/React-icon.png" alt="React logo"></img>React</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/jquery-vertical.png" alt="jQuery logo"></img>jQuery</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/mysql.png" alt="SQL logo"></img>MySQL</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/MongoDB_Leaf_White_RGB.png" alt="mongo logo"></img>MongoDB</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/rest-api.png" alt="restAPI logo"></img>REST API</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/json.png" alt="JSON logo"></img>JSON</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/expressjs-icon.png" alt="express logo"></img>Express</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/heroku.png" alt="heroku logo"></img>Heroku</li></Flip>
+                                <Flip><li className="skillList"><img className='logo' src="assets/images/GitHub-Logo.png" alt="Github logo"></img>Git</li></Flip>
                             </ul>
+                            </LazyLoad>
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </div>
     );
 };

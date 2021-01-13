@@ -67,6 +67,12 @@
     text-align: left;
 }
 
+.logo {
+height: 25px;
+width: 25px;
+margin: 7px 15px 7px 0px;
+}
+
 .fa-ul {
     padding-left: 0;
 }
@@ -76,55 +82,8 @@
     margin-right: 6px;
 }
 
-.jqueryLogo {
-    width: 25px;
-    margin-right: 5px;
-    padding-right: 1px;
-    padding-bottom: 1px;
-}
 
-.restApiLogo {
-    width: 25px;
-    margin-right: 5px;
-    background-color: black;
-}
 
-.jsonLogo {
-    width: 21px;
-    margin-right: 7px;
-    background-color: black;
-}
-
-.expressLogo {
-    width: 25px;
-    margin-right: 5px;
-    background-color: black;
-}
-
-.herokuLogo {
-    width: 25px;
-    margin-right: 3px;
-    background-color: black;
-    padding-right: 3px;
-}
-
-.mysqlLogo {
-    width: 30px;
-    margin-right: 2px;
-    background-color: black;
-    padding-right: 5px;
-}
-
-.sql {
-    padding-right: 0px;
-}
-
-.mongoDBLogo {
-    width: 30px;
-    margin-right: 3px;
-    background-color: black;
-    padding-right: 5px;
-}
 
 @media (min-width: 320px) {
     .resumeTitle{
