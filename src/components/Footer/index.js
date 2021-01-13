@@ -23,8 +23,7 @@ function Footer() {
         <a href="https://www.instagram.com/briangearty/?hl=en"><img src="../assets/images/instagramlogo.svg" alt="Instagram logo" className="instagram aTag"></img></a>
         <a href="https://www.linkedin.com/in/brian-gearty-2a434a76/"><img src="../assets/images/linkedinlogo.svg" alt="Linkedin logo" className="linkedin aTag" ></img></a>
         <a href="https://github.com/BrianGearty"><img src="../assets/images/githublogo.svg" alt="Github logo" className="github aTag" ></img></a>
-        </div>
-            
+        </div>    
     </footer>
     );
 }

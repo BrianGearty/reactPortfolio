@@ -4,6 +4,7 @@ import styled, { keyframes } from 'styled-components';
 import { fadeIn } from 'react-animations';
 import { Col, Row, Container } from "../../components/Grid";
 import "../Resume/Resume.css"
+import Footer from "../../components/Footer";
 import Loading from "../../components/Loading/loading";
 
 
@@ -85,6 +86,7 @@ const Resume = () => {
                     </Col>
                 </Row>
             </Container>
+            <Footer />
         </div>
     );
 };
