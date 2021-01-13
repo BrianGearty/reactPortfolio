@@ -54,7 +54,9 @@
 }
 
     @media (min-width: 320px) {
-    .backgroundImg {border-radius: inherit;
+    .backgroundImg {
+                height: 200vh;
+                border-radius: inherit;
                 background-position: left;
     }
     .homeCard-body {margin-left: 10%;
