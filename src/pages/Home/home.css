@@ -1,12 +1,6 @@
 
-.bg-dim {
-  min-width: 100%;
-  min-height:100%;
-}
-
-
 .backgroundImg {  
-  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat left center; 
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +8,6 @@
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
-  margin: 0;
   background-color: black;
 } 
 
@@ -59,9 +52,8 @@
 }
 
     @media (min-width: 320px) {
-    .jumbotron {border-radius: inherit;
+    .backgroundImg {border-radius: inherit;
                 background-position: left;
-                min-height:310vh;
     }
     .homeCard-body {margin-left: 10%;
                     margin-top: 145px;
@@ -78,7 +70,10 @@
   }
   
   @media (min-width: 374px) {
-    .jumbotron {
+    .homeWrapper{
+      min-height: 100vh;
+    }
+    .backgroundImg {
       background-position: left;
       border-radius: inherit;
       height:240vh;
@@ -86,7 +81,8 @@
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
     @media (min-width: 480px) {
-      .jumbotron {
+      
+      .backgroundImg {
                   background-position: left center;
                 height:210vh;
     }
@@ -105,7 +101,8 @@
   } 
 
   @media only screen and (min-width: 600px) {
-    .jumbotron {
+    
+    .backgroundImg {
                 background-position: left center;
                 height:250vh;
   }
@@ -126,8 +123,8 @@
   
   /* Medium devices (landscape tablets, 768px and up) */
     @media (min-width: 768px) {
-
-.jumbotron {
+      
+.backgroundImg {
                 background-position: left center;
                 height:250vh;
 }
@@ -155,7 +152,8 @@
   
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
-      .jumbotron {
+      
+      .backgroundImg {
         background-position: center left;
       }
       .homeCard-body{
@@ -178,7 +176,8 @@
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media(min-width: 1200px) {
-      .jumbotron {
+      
+      .backgroundImg {
                 background-position: top center;
                 height:280vh;
 
