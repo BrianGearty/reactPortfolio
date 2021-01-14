@@ -1,4 +1,4 @@
-
+/* 
 body {  
   background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
   -webkit-background-size: cover;
@@ -11,8 +11,20 @@ body {
   background-color: black;
   height: auto;
   max-width: 100%;
-  
-} 
+}  */
+.backgroundImg {
+background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1; 
+animation-fill-mode: forwards; 
+background-color: black;
+height: auto;
+max-width: 100%;
+}
 
 @keyframes fadeInAnimation { 
   0% { 
@@ -25,13 +37,14 @@ body {
 
 .homeCard-body{
   margin-left: 35%;
-  
+ 
 }
 
 .homeTextDiv {
     display: inline-block;
     top: 225px;
     width: 50%;
+    
 }
 
 .homeText {
