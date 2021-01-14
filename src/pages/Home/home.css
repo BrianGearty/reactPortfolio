@@ -57,9 +57,17 @@
 
     @media (min-width: 320px) {
     .backgroundImg {
-                height: 200vh;
-                border-radius: inherit;
-                background-position: left;
+      position: relative;
+      height: 190vh;
+      width: 100vw;
+      background-position: left;
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-color: black;
+
     }
     .homeCard-body {margin-left: 10%;
                     margin-top: 145px;
