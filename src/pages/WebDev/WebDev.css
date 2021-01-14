@@ -162,7 +162,7 @@
     .devText {
         text-align: left;
         font-family: 'Barlow', sans-serif;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
     }
 }
@@ -179,7 +179,7 @@
     .devText {
         text-align: left;
         font-family: 'Barlow', sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 500;
         padding: 0;
     }
