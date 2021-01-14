@@ -15,19 +15,19 @@
 
 .resumeTitle {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: 1px;
     font-weight: 700;
     color:black;
     background-color: white;
-    padding: 5px 7px 5px 7px;
+    padding: 5px 11px 5px 11px;
 }
 
 .companyName {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
     text-decoration: underline;
 }
@@ -37,7 +37,6 @@
     font-size: 18px;
     font-weight: 500;
     color: white;
-    letter-spacing: .5px;
     line-height: 25px;
     text-align: left;
     margin: 3px 15px 10px;
@@ -47,7 +46,7 @@
 .duration {
     text-align: center;
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: white;
     letter-spacing: .5px;
@@ -59,10 +58,9 @@
 .skillList {
     text-align: center;
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: white;
-    letter-spacing: 1px;
     line-height: 30px;
     text-align: left;
 }
@@ -96,9 +94,6 @@ margin: 7px 15px 7px 0px;
     .description{
         font-size: 14px;
     }
-    .duration{
-        font-size: 12px;
-    }
     .jobTitle{
         font-size: 14px;
     }
@@ -112,7 +107,7 @@ margin: 7px 15px 7px 0px;
         font-size: 30px;
     }
     .description{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
