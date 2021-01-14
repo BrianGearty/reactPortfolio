@@ -58,8 +58,8 @@
     @media (min-width: 320px) {
     .backgroundImg {
       position: relative;
-      height: 190vh;
-      width: 100vw;
+      height: 2732px;
+      width: 2048px;
       background-position: left;
       background-attachment: fixed;
       background-size: cover;
