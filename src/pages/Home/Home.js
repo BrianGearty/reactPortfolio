@@ -15,9 +15,7 @@ const Home = () => {
         <div className="backgroundImg">
         <Container fluid className="homeWrapper">
             <Row>
-                <div>
                     <Col size="lg-12">
-                        <div>
                             <div className='homeCard-body'>
                                 <div className="homeTextDiv">
                                 <FadeUp><div className="homeTitle">Web Developer & Session Musician</div></FadeUp>
@@ -25,9 +23,7 @@ const Home = () => {
                                     <FadeUp><p className="homeText">As of December 2020 I am a graduate and certificate recipient from Rutgers University's Full Stack Coding Bootcamp. I am thoroughly versed in all aspects of Full Stack Development including; Javascript, jQuery, HTML, CSS, Handlebars, REST API, JSON, React, Node, MySQL, and MongoDB. One of my greatest strengths as a developer is being a great communicator. Working as a session musician for the past decade has taught me how to collaboratively create as a team player and address problems in an effective, professional manner affirming the task at hand.</p></FadeUp>
                                 </div>
                             </div>
-                        </div>
                     </Col>
-                </div>
             </Row>
         </Container>
         </div>

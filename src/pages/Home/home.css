@@ -1,4 +1,4 @@
-/* 
+
 body {  
   background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
   -webkit-background-size: cover;
@@ -11,7 +11,7 @@ body {
   background-color: black;
   height: auto;
   max-width: 100%;
-}  */
+} 
 .backgroundImg {
 background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
 -webkit-background-size: cover;
