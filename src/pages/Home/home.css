@@ -1,6 +1,6 @@
 
-.backgroundImg {  
-  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed; 
+body {  
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,8 +9,9 @@
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
   background-color: black;
-  height: 100vh;
+  height: auto;
   max-width: 100%;
+  
 } 
 
 @keyframes fadeInAnimation { 
@@ -22,10 +23,9 @@
   } 
 }
 
-.backgroundImg::before{content: "";display: block;position: fixed;z-index: -1;height: 100%;width: 100%}
-
 .homeCard-body{
   margin-left: 35%;
+  
 }
 
 .homeTextDiv {
@@ -56,19 +56,19 @@
 }
 
     @media (min-width: 320px) {
-    .backgroundImg {
-      position: relative;
+    /* .backgroundImg {
+      position: absolute;
       height: 190vh;
       width: 100vw;
       background-position: left left;
-      background-attachment: scroll;
+      
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-color: black;
 
-    }
+    } */
     .homeCard-body {margin-left: 10%;
                     margin-top: 145px;
     }
@@ -87,19 +87,19 @@
     .homeWrapper{
       min-height: 100vh;
     }
-    .backgroundImg {
+    /* .backgroundImg {
       background-position: left;
       border-radius: inherit;
       height:240vh;
-  }
+  } */
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
     @media (min-width: 480px) {
-      
+/*       
       .backgroundImg {
                   background-position: left center;
                 height:210vh;
-    }
+    } */
     .homeCard-body {margin-left: 5%;
                 margin-top: 200px;
     }
@@ -115,11 +115,11 @@
   } 
 
   @media only screen and (min-width: 600px) {
-    
+/*     
     .backgroundImg {
                 background-position: left center;
                 height:250vh;
-  }
+  } */
   .homeCard-body {
     margin-left: 10%;
     margin-top: 250px;
@@ -138,10 +138,10 @@
   /* Medium devices (landscape tablets, 768px and up) */
     @media (min-width: 768px) {
       
-.backgroundImg {
+/* .backgroundImg {
                 background-position: left center;
                 height:250vh;
-}
+} */
 .homeCard-body{
   margin-left: 10%;
   margin-top: 150px;
@@ -167,9 +167,9 @@
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
       
-      .backgroundImg {
+      /* .backgroundImg {
         background-position: center left;
-      }
+      } */
       .homeCard-body{
         margin-left: 5%;
         margin-top: 300px;
@@ -190,12 +190,12 @@
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media(min-width: 1200px) {
-      
+/*       
       .backgroundImg {
                 background-position: top center;
                 height:280vh;
 
-      }
+      } */
       .homeCard-body{
         margin-left: 35%;
         margin-top: 10px;
