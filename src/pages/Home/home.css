@@ -58,9 +58,10 @@
     @media (min-width: 320px) {
     .backgroundImg {
       position: relative;
-      height: 2732px;
-      width: 2048px;
-      background-position: left;
+      height: 190vh;
+      width: 100vw;
+      background-position: left left;
+      background-attachment: scroll;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
