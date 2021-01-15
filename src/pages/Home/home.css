@@ -133,12 +133,11 @@ max-width: 100%;
 
   @media only screen and (min-width: 600px) {
     
-    body {
+    /* body {
                 background-position: left center;
                 height:250vh;
-                
                 overflow: auto;
-  }
+  } */
 
   .backgroundImg {
     background-position: left center;
