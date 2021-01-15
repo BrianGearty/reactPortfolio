@@ -1,7 +1,14 @@
+/* .footerName{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+} */
 .aTag {
     width: 50px;
     padding: 5px 5px 25px 5px;
-    z-index: 2;
+    z-index: 0;
 }
 
 .footer {

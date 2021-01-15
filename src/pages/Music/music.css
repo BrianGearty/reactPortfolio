@@ -1,4 +1,6 @@
-
+.musicPage {
+    background-color: #f6f6f6;
+}
 .cardHeader {
     text-align: left;
     font-family: 'Barlow Condensed', sans-serif;
@@ -147,7 +149,7 @@
         .cardParagraph {
             text-align: left;
             font-family: 'Barlow', sans-serif;
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 500;
         }
         
@@ -190,7 +192,7 @@
     .cardParagraph {
         text-align: left;
         font-family: 'Barlow', sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 500;
     }
     

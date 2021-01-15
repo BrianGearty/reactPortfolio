@@ -1,6 +1,20 @@
+/* 
+.backgroundImg {
+background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1; 
+animation-fill-mode: forwards; 
+background-color: black;
+height: auto;
+max-width: 100%;
+} */
 
-.backgroundImg {  
-  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat center center fixed; 
+body {  
+  background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,7 +23,7 @@
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
   background-color: black;
-  height: 100vh;
+  height: auto;
   max-width: 100%;
 } 
 
@@ -21,15 +35,18 @@
       opacity: 1; 
   } 
 }
+ 
 
-.homeCard-body{
-  margin-left: 35%;
-}
-
+/* 
 .homeTextDiv {
     display: inline-block;
     top: 225px;
-    width: 50%;
+    width: 100%;
+    
+} */
+
+.leftside{
+  background: transparent;
 }
 
 .homeText {
@@ -54,18 +71,18 @@
 }
 
     @media (min-width: 320px) {
-    .backgroundImg {
-                height: 200vh;
-                border-radius: inherit;
-                background-position: left;
-    }
+      body{
+        background-position: top 35px left -250px;
+      }
+
     .homeCard-body {margin-left: 10%;
-                    margin-top: 145px;
+                    margin-right: 10%;
+                    margin-top: 350px;
     }
     .homeTextDiv {text-align: left;
                   width: 100%; 
     }
-    .homeTitle {font-size: 16px;
+    .homeTitle {font-size: 15px;
       text-align: center;
 
     }
@@ -73,23 +90,8 @@
                 line-height: 25px;}
   }
   
-  @media (min-width: 374px) {
-    .homeWrapper{
-      min-height: 100vh;
-    }
-    .backgroundImg {
-      background-position: left;
-      border-radius: inherit;
-      height:240vh;
-  }
-}
   /* Small devices (portrait tablets and large phones, 600px and up) */
     @media (min-width: 480px) {
-      
-      .backgroundImg {
-                  background-position: left center;
-                height:210vh;
-    }
     .homeCard-body {margin-left: 5%;
                 margin-top: 200px;
     }
@@ -105,11 +107,9 @@
   } 
 
   @media only screen and (min-width: 600px) {
-    
-    .backgroundImg {
-                background-position: left center;
-                height:250vh;
-  }
+    body{
+      background-position: top 65px left 10px;
+    }
   .homeCard-body {
     margin-left: 10%;
     margin-top: 250px;
@@ -127,18 +127,13 @@
   
   /* Medium devices (landscape tablets, 768px and up) */
     @media (min-width: 768px) {
-      
-.backgroundImg {
-                background-position: left center;
-                height:250vh;
-}
 .homeCard-body{
   margin-left: 10%;
-  margin-top: 150px;
+  margin-top: 350px;
 }
 .homeTextDiv {
   top: 205px;
-  width: 90%;
+  width: 100%;
 }
 .homeTitle {
   font-size: 28px;
@@ -146,7 +141,7 @@
 
 }
 .homeText {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -156,16 +151,12 @@
   
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
-      
-      .backgroundImg {
-        background-position: center left;
-      }
       .homeCard-body{
-        margin-left: 5%;
-        margin-top: 300px;
+        margin-left: -10%;
+        margin-top: 425px;
       }
       .homeTextDiv {
-        width: 90%;
+        width: 100%;
       }
       .homeTitle {
         font-size: 30px;
@@ -180,12 +171,6 @@
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media(min-width: 1200px) {
-      
-      .backgroundImg {
-                background-position: top center;
-                height:280vh;
-
-      }
       .homeCard-body{
         margin-left: 35%;
         margin-top: 10px;
@@ -199,7 +184,7 @@
       
       }
       .homeText {
-        font-size: 23px;
+        font-size: 18px;
         line-height: 40px;
         letter-spacing: 2px;
         font-weight: 600;

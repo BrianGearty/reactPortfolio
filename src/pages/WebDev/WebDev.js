@@ -19,7 +19,7 @@ const WebDev = () => {
     const FadeIn = styled.div `animation: .5s ${fadeInAnimation}`
 
     return (
-        <div className="webDevFade">
+        <div className="webDevPage">
         <Container fluid >
             <Row>
                 <Col size="lg-12">
@@ -46,6 +46,10 @@ const WebDev = () => {
                 </Col>
             </Row>
         </Container>
+        <br />
+        <br />
+        <br />
+        <br />
         <Footer />
         </div>
     );
