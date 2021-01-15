@@ -136,14 +136,14 @@ max-width: 100%;
     body {
                 background-position: left center;
                 height:250vh;
-                background-position: top 105px right 25px;
+                background-position: top 105px right 45px;
                 overflow: auto;
   }
 
   .backgroundImg {
     background-position: left center;
     height:250vh;
-    background-position: top 105px right 25px;
+    background-position: top 105px right 45px;
     overflow: auto;
 }
   .homeCard-body {
