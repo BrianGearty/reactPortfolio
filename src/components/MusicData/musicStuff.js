@@ -11,7 +11,7 @@ const data = [
 "image":"assets/images/danafuchs.jpg",
 "alt":"Brian Gearty on stage with Dana Fuchs in San Francisco, CA in 2018.",
 "artistName":"Dana Fuchs",
-"text":"Since 2017 I have had the distinct pleasure of touring with the wildly entertaining blues/soul artist, Dana Fuchs from Harlem, NY. Dana played the character, 'Sexy Sadie' in the cult classic, 'Across The Universe.' Dana has a distinct rasp in her voice many compare to Janis Joplin while remaining smooth and soulful. We can be seen and heard all across the United States and Europe."
+"text":"Since 2017 I have been touring with the wildly entertaining blues/soul artist, Dana Fuchs from Harlem, NY. Dana played the character, 'Sexy Sadie' in the cult classic, 'Across The Universe.' Dana has a distinct rasp in her voice many compare to Janis Joplin while remaining smooth and soulful. We can be seen and heard all across the United States and Europe."
 },
 {
 "id": 3,
@@ -25,14 +25,14 @@ const data = [
 "image":"assets/images/gedeonluke.jpg",
 "alt":"Brian Gearty on stage with Gedon Luke & the People in Memphis, TN 2017.",
 "artistName":"Gedeon Luke & the People",
-"text":"Gedeon and the band are an act to see. Forget about your day job. Forget about your struggles you're going to be hit with a wall of 'Peace, Love and Soul.' Gedeon grew up in Memphis and grasped the attention of producers all over the country when he made it to the final round of American Idol some years back. Its a big ole' soul band fusing Funk, Soul, Rock, Blues and Gospel music."
+"text":"Gedeon and the band are an act to see. Forget about your day job. Forget about your struggles you're going to be hit with a wall of Funk n' Soul. Gedeon grew up in Memphis and grasped the attention of producers all over the country when he made it to the final round of American Idol some years back. Its a big band fusing Funk, Soul, Rock, Blues and Gospel music."
 },
 {
 "id": 5,
 "image":"assets/images/mikeorlando.jpg",
 "alt":"Brian Gearty on stage with Mike Orlando and Corey Glover at Iridium Jazz Club 2019.",
 "artistName":"Corey Glover & Mike Orlando",
-"text":"I got a call to do a music video with a metal band from Norway. I dont play metal! I did it and it lead to me getting hired by the guitarist Mike Orlando of 'Adrenaline Mob' and vocalist Corey Glover of 'Living Colour.' Their original music was a fusion of hard rock, metal, and almost composition-like classical music. To say the least that was one of the most rewarding gigs I have ever done."
+"text":"I got a call to do a music video with a metal band from Norway. I dont play metal! I did it and it lead to me getting hired by the guitarist Mike Orlando of 'Adrenaline Mob' and vocalist Corey Glover of 'Living Colour.' Their original music was a fusion of hard rock, metal, and composition-like classical music. To say the least that was one of the most rewarding gigs I have ever done."
 },
 {
 "id": 6,
