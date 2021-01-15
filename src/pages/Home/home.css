@@ -72,11 +72,12 @@ body {
 
     @media (min-width: 320px) {
       body{
-        background-position: top 45px right 45px;
+        background-position: top 45px left 0px;
       }
 
     .homeCard-body {margin-left: 10%;
-                    margin-top: 145px;
+                    margin-right: 10%;
+                    margin-top: 195px;
     }
     .homeTextDiv {text-align: left;
                   width: 100%; 
@@ -128,11 +129,11 @@ body {
     @media (min-width: 768px) {
 .homeCard-body{
   margin-left: 10%;
-  margin-top: 150px;
+  margin-top: 350px;
 }
 .homeTextDiv {
   top: 205px;
-  width: 90%;
+  width: 100%;
 }
 .homeTitle {
   font-size: 28px;
@@ -151,11 +152,11 @@ body {
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
       .homeCard-body{
-        margin-left: 5%;
-        margin-top: 300px;
+        margin-left: -10%;
+        margin-top: 425px;
       }
       .homeTextDiv {
-        width: 90%;
+        width: 100%;
       }
       .homeTitle {
         font-size: 30px;
