@@ -72,12 +72,12 @@ body {
 
     @media (min-width: 320px) {
       body{
-        background-position: top 45px left -300px;
+        background-position: top 45px left -250px;
       }
 
     .homeCard-body {margin-left: 10%;
                     margin-right: 10%;
-                    margin-top: 295px;
+                    margin-top: 350px;
     }
     .homeTextDiv {text-align: left;
                   width: 100%; 
