@@ -39,6 +39,10 @@ const Music = () => {
                 </Col>
             </Row>
         </Container>
+        <br />
+        <br />
+        <br />
+        <br />
         <Footer />
         </div>
     );

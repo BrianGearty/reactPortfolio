@@ -46,6 +46,10 @@ const WebDev = () => {
                 </Col>
             </Row>
         </Container>
+        <br />
+        <br />
+        <br />
+        <br />
         <Footer />
         </div>
     );
