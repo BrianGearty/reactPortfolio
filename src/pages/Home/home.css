@@ -1,3 +1,17 @@
+/* 
+.backgroundImg {
+background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+animation: fadeInAnimation ease 2s;
+animation-iteration-count: 1; 
+animation-fill-mode: forwards; 
+background-color: black;
+height: auto;
+max-width: 100%;
+} */
 
 body {  
   background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
@@ -12,19 +26,6 @@ body {
   height: auto;
   max-width: 100%;
 } 
-.backgroundImg {
-background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-animation: fadeInAnimation ease 2s;
-animation-iteration-count: 1; 
-animation-fill-mode: forwards; 
-background-color: black;
-height: auto;
-max-width: 100%;
-}
 
 @keyframes fadeInAnimation { 
   0% { 
@@ -34,18 +35,17 @@ max-width: 100%;
       opacity: 1; 
   } 
 }
-
-.homeCard-body{
-  margin-left: 35%;
  
-}
-
+.homeCard-body{
+  background-color: rgb(181, 59, 59, 0.5);
+} 
+/* 
 .homeTextDiv {
     display: inline-block;
     top: 225px;
-    width: 50%;
+    width: 100%;
     
-}
+} */
 
 .homeText {
     text-align: center;
@@ -69,20 +69,6 @@ max-width: 100%;
 }
 
     @media (min-width: 320px) {
-      body {  
-        background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        animation: fadeInAnimation ease 2s;
-        animation-iteration-count: 1; 
-        animation-fill-mode: forwards; 
-        background-color: black;
-        height: auto;
-        max-width: 100%;
-        background-position: top 35px right 75px !important;
-      } 
     /* .backgroundImg {
       position: absolute;
       height: 190vh;
@@ -112,11 +98,6 @@ max-width: 100%;
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
     @media (min-width: 480px) {
-/*       
-      .backgroundImg {
-                  background-position: left center;
-                height:210vh;
-    } */
     .homeCard-body {margin-left: 5%;
                 margin-top: 200px;
     }
@@ -132,19 +113,6 @@ max-width: 100%;
   } 
 
   @media only screen and (min-width: 600px) {
-    
-    /* body {
-                background-position: left center;
-                height:250vh;
-                overflow: auto;
-  } */
-
-  .backgroundImg {
-    background-position: left center;
-    height:250vh;
-    background-position: top 105px left 25px;
-    overflow: auto;
-}
   .homeCard-body {
     margin-left: 10%;
     margin-top: 250px;
@@ -162,11 +130,6 @@ max-width: 100%;
   
   /* Medium devices (landscape tablets, 768px and up) */
     @media (min-width: 768px) {
-      
-/* .backgroundImg {
-                background-position: left center;
-                height:250vh;
-} */
 .homeCard-body{
   margin-left: 10%;
   margin-top: 150px;
@@ -191,10 +154,6 @@ max-width: 100%;
   
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
-      
-      /* .backgroundImg {
-        background-position: center left;
-      } */
       .homeCard-body{
         margin-left: 5%;
         margin-top: 300px;
@@ -215,12 +174,6 @@ max-width: 100%;
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media(min-width: 1200px) {
-/*       
-      .backgroundImg {
-                background-position: top center;
-                height:280vh;
-
-      } */
       .homeCard-body{
         margin-left: 35%;
         margin-top: 10px;

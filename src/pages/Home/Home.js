@@ -11,10 +11,11 @@ const Home = () => {
     const FadeUp = styled.div `animation: 1s ${fadeUpAnimation};`;
 
     return (
-        <div className="backgroundImg">
-        <Container fluid className="homeWrapper">
+    
+        <Container fluid >
             <Row>
-                    <Col size="lg-12">
+                    <Col size="lg-2"></Col>
+                    <Col size="lg-10">
                             <div className='homeCard-body'>
                                 <div className="homeTextDiv">
                                 <FadeUp><div className="homeTitle">Web Developer & Session Musician</div></FadeUp>
@@ -25,7 +26,7 @@ const Home = () => {
                     </Col>
             </Row>
         </Container>
-        </div>
+    
     );
 };
 
