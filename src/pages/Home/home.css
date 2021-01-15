@@ -25,6 +25,7 @@ body {
   background-color: black;
   height: auto;
   max-width: 100%;
+  background-position: top 25px right 35px;
 } 
 
 @keyframes fadeInAnimation { 
@@ -71,19 +72,7 @@ body {
 }
 
     @media (min-width: 320px) {
-    /* .backgroundImg {
-      position: absolute;
-      height: 190vh;
-      width: 100vw;
-      background-position: left left;
-      
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-color: black;
 
-    } */
     .homeCard-body {margin-left: 10%;
                     margin-top: 145px;
     }
