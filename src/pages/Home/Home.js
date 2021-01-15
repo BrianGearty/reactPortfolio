@@ -14,8 +14,8 @@ const Home = () => {
     
         <Container fluid >
             <Row>
-                    <Col size="lg-2"></Col>
-                    <Col size="lg-10">
+                    <Col size="lg-2" className="leftside"></Col>
+                    <Col size="lg-10" className="leftside">
                             <div className='homeCard-body'>
                                 <div className="homeTextDiv">
                                 <FadeUp><div className="homeTitle">Web Developer & Session Musician</div></FadeUp>

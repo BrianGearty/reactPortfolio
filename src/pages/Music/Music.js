@@ -15,7 +15,7 @@ const Music = () => {
     const fadeRightAnimation = keyframes `${fadeIn}`;
     const FadeRight = styled.div `animation: 1s ${fadeRightAnimation}`
     return (
-        <div className="musicFade">
+        <div className="musicPage">
         <Container fluid>
             <Row className="row-divided">
                 <Col size="lg-12">

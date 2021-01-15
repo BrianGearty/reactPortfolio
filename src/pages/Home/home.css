@@ -36,9 +36,7 @@ body {
   } 
 }
  
-.homeCard-body{
-  background-color: rgb(181, 59, 59, 0.5);
-} 
+
 /* 
 .homeTextDiv {
     display: inline-block;
@@ -46,6 +44,10 @@ body {
     width: 100%;
     
 } */
+
+.leftside{
+  background: transparent;
+}
 
 .homeText {
     text-align: center;
