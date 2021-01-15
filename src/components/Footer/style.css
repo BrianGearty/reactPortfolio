@@ -11,6 +11,12 @@
     z-index: 0;
 }
 
+.aTag:hover {
+    transition: ease .2s;
+    transform: scale(1.3);
+    
+}
+
 .footer {
     text-align: center;
     width: 100%;
