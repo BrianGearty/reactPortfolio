@@ -11,7 +11,6 @@ const Home = () => {
     const FadeUp = styled.div `animation: 1s ${fadeUpAnimation};`;
 
     return (
-        <div className="imgWrapper">
         <div className="backgroundImg">
         <Container fluid className="homeWrapper">
             <Row>
@@ -26,7 +25,6 @@ const Home = () => {
                     </Col>
             </Row>
         </Container>
-        </div>
         </div>
     );
 };

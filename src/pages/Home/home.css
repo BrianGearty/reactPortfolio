@@ -69,6 +69,19 @@ max-width: 100%;
 }
 
     @media (min-width: 320px) {
+      body {  
+        background: url(../../BackgroundImages/indexphoto.jpg) no-repeat fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+        background-color: black;
+        height: auto;
+        max-width: 100%;
+      } 
     /* .backgroundImg {
       position: absolute;
       height: 190vh;
