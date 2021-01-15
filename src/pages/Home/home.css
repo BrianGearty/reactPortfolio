@@ -81,7 +81,7 @@ max-width: 100%;
         background-color: black;
         height: auto;
         max-width: 100%;
-        background-position: top 25px right 25px;
+        background-position: top 35px right 45px !important;
       } 
     /* .backgroundImg {
       position: absolute;
@@ -136,7 +136,7 @@ max-width: 100%;
     body {
                 background-position: left center;
                 height:250vh;
-                background-position: top 105px left 25px;
+                
                 overflow: auto;
   }
 
