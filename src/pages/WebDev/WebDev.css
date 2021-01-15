@@ -31,6 +31,11 @@
     border-radius: 0;
 }
 
+.devCardImage:hover {
+    transition: ease .2s;
+    transform: scale(1.1);
+}
+
 .devCards {
     margin: 20px;
 }

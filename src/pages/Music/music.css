@@ -31,6 +31,11 @@
     border-radius: 0;
 }
 
+.cardImage:hover {
+    transition: ease .2s;
+    transform: scale(1.1);
+}
+
 .cards {
     margin: 20px;
 }
