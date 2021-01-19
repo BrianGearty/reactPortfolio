@@ -55,8 +55,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     color: white;
-    letter-spacing: .5px;
-    line-height: 40px;
+    line-height: 30px;
     text-align: left;
     padding-top: 25px;
 }
@@ -142,9 +141,6 @@ body {
 }
 .homeText {
   font-size: 18px;
-  line-height: 40px;
-  letter-spacing: 1px;
-  font-weight: 600;
 }
     
   }  
@@ -165,7 +161,7 @@ body {
       }
       .homeText {
         font-size: 20px;
-        line-height: 35px;
+        line-height: 30px;
       }
   }  
   
@@ -185,8 +181,6 @@ body {
       }
       .homeText {
         font-size: 18px;
-        line-height: 40px;
-        letter-spacing: 2px;
         font-weight: 600;
       }
   }  

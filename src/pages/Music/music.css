@@ -24,23 +24,57 @@
 }
 
 .cardImage {
+    background-color: black;
     width: 30%;
     border: 1px rgb(0, 0, 0, .75) solid !important;
     float: left;
     margin-right: 100px;
     border-radius: 0;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-.cardImage:hover {
-    transition: ease .2s;
-    transform: scale(1.1);
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    margin: 17% 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
+
+.imgDiv {
+position: relative;
+}
+
+.imgDiv:hover .cardImage {
+    opacity: 0.3;
+}
+
+.imgDiv:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    font-family: 'Barlow', sans-serif;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: 400;
+  }
 
 .cards {
     margin: 20px;
 }
 
 @media (min-width: 320px) {
+    .middle{
+        margin: 45% 40%;
+        width: 90%;
+    }
     .cards {
         margin-left: 0px;
     }
@@ -54,7 +88,7 @@
     } 
     .cardStuff {
         display: inline-block;
-        width: 80%;
+        width: 95%;
         padding: 10px 0;
     }
     .cardHeader {
@@ -76,19 +110,20 @@
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
     @media (min-width: 480px) {
+        .middle{
+            margin: 45% 38%;
+            width: 60%;
+        }
         .cards {
             margin-left: 0;
         }
-        .card-deck {
-            justify-content: inherit;
-        }
         .cardImage {
             float: left;
-            width: 50%;
+            width: 80%;
         } 
         .cardStuff {
             display: inline-block;
-            width: 50%;
+            width: 80%;
             padding: 10px 0;
         }
         .cardHeader {
@@ -110,6 +145,10 @@
 }
 
   @media (min-width: 600px) {
+    .middle{
+        margin: 22% 20%;
+        width: 40%;
+    }
     .cardHeader {
         text-align: left;
         font-family: 'Barlow Condensed', sans-serif;
@@ -140,6 +179,10 @@
 } 
   /* Medium devices (landscape tablets, 768px and up) */
     @media (min-width: 768px) {
+        .middle{
+            margin: 22% 20%;
+            width: 40%;
+        }
         .card-deck{
             margin-right:  10px;
         }
@@ -160,13 +203,13 @@
         
         .cardStuff {
             display: inline-block;
-            width: 50%;
+            width: 45%;
             padding: 20px 0;
             
         }
         
         .cardImage {
-            width: 30%;
+            width: 40%;
             float: left;
         }
         
@@ -177,44 +220,37 @@
   }  
   /*  Large devices (laptops/desktops, 992px and up) */
     @media (min-width: 1024px) {
+        .middle{
+            margin: 22% 20%;
+            width: 40%;
+        }
         .cardStuff {
             display: inline-block;
-            width: 50%;
+            width: 40%;
             padding: 70px 0;
             
         }
 
   } 
-  @media (min-width: 1200px) { 
+  @media (min-width: 1200px) {  
+        .middle{
+    margin: 17% 15%;
+    width: 40%;
+}
     .cardHeader {
-        text-align: left;
-        font-family: 'Barlow Condensed', sans-serif;
         font-size: 28px;
-        letter-spacing: 1px;
-        font-weight: 700;
     }
-    
     .cardParagraph {
-        text-align: left;
-        font-family: 'Barlow', sans-serif;
         font-size: 18px;
-        font-weight: 500;
     }
-    
-    .cardStuff {
-        display: inline-block;
-        width: 40%;
-        padding: 10% 0;
-    }
-    
-    
-    .cardImage {
-        width: 30%;
-        float: left;
-    }
-    
     .cards {
         margin: 20px;
+    }
+    .cardImage{
+        width: 30%;
+    }
+    .cardStuff{
+        width: 30%;
     }
 
 }

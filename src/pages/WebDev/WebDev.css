@@ -32,8 +32,7 @@
 }
 
 .devCardImage:hover {
-    transition: ease .2s;
-    transform: scale(1.1);
+
 }
 
 .devCards {
@@ -91,6 +90,10 @@
     }
     .devCards{
         margin-left: 0;
+    }
+    .project{
+        font-size: 14px;
+        margin: 15px 10px 0px 0px;
     }
 }
 
