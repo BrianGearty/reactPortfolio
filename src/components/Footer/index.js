@@ -5,7 +5,7 @@ import "./style.css"
 
 
 function Footer() {
-    
+
         useEffect(()=>{ 
         let mybutton = document.getElementsByClassName("fa")[0];
         window.onscroll = function() {scrollFunction()};
@@ -13,7 +13,7 @@ function Footer() {
         mybutton.style.display = "none";
     
         function scrollFunction() {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
                 mybutton.style.display = "block";
             } else {
                 mybutton.style.display = "none";
