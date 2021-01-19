@@ -30,7 +30,6 @@ const WebDev = () => {
                                     <Card.Body>
                                         <LazyLoad once height="100%" placeholder={<Loading />}>
                                         <CardImg className='devCardImage' src={dev.image} alt={dev.alt}></CardImg>
-                                        
                                         <div className="devCardStuff">
                                         <FadeRight><Card.Title className="devCardHeader">{dev.name}</Card.Title></FadeRight>
                                         <FadeRight><Card.Text className="devText">{dev.text}</Card.Text></FadeRight>

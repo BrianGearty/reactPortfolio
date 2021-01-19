@@ -31,6 +31,10 @@
     border-radius: 0;
 }
 
+.devCardImage:hover {
+
+}
+
 .devCards {
     margin: 20px;
 }
@@ -86,6 +90,10 @@
     }
     .devCards{
         margin-left: 0;
+    }
+    .project{
+        font-size: 14px;
+        margin: 15px 10px 0px 0px;
     }
 }
 

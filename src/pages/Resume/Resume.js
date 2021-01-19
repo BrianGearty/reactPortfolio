@@ -87,6 +87,8 @@ const Resume = () => {
                     </Col>
                 </Row>
             </Container>
+            <br />
+            <br />
             <Footer />
         </div>
     );

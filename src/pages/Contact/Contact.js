@@ -50,6 +50,10 @@ const Contact = () => {
                 </div>
             </form>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <Footer />
     </div>
 
