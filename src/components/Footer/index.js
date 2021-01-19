@@ -5,11 +5,29 @@ import "./style.css"
 
 
 function Footer() {
+    
+        useEffect(()=>{ 
+        let mybutton = document.getElementsByClassName("fa")[0];
+        window.onscroll = function() {scrollFunction()};
 
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+        mybutton.style.display = "none";
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    })
+    
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    
+        }
+    
+
     useEffect(() => {
     function switchLogo() {
         if(window.location.pathname === "/resume" || window.location.pathname === "/contact"){
@@ -27,7 +45,7 @@ function Footer() {
 
     return (
     <footer className='footer'>
-        <i variant="info" onClick={topFunction} className="fa fa-long-arrow-up" id="myBtn " title="Go to top"></i>
+        <i variant="info" onClick={topFunction} className="fa fa-long-arrow-up" id="scrollBTN " title="Go to top"></i>
         <div className="blackLogo">
         <a href="https://www.facebook.com/brian.gearty.7/"><img src="../assets/images/facebooklogo.svg" alt="Facebook logo" className="facebook aTag"></img></a>
         <a href="https://www.instagram.com/briangearty/?hl=en"><img src="../assets/images/instagramlogo.svg" alt="Instagram logo" className="instagram aTag"></img></a>
