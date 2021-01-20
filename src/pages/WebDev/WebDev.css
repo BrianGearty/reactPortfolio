@@ -1,4 +1,6 @@
-
+.webDevPage {
+    background-color: #f6f6f6;
+}
 .devCardHeader {
     text-align: left;
     font-family: 'Barlow Condensed', sans-serif;
@@ -27,6 +29,10 @@
     float: left;
     margin-right: 100px;
     border-radius: 0;
+}
+
+.devCardImage:hover {
+
 }
 
 .devCards {
@@ -84,6 +90,10 @@
     }
     .devCards{
         margin-left: 0;
+    }
+    .project{
+        font-size: 14px;
+        margin: 15px 10px 0px 0px;
     }
 }
 
@@ -162,7 +172,7 @@
     .devText {
         text-align: left;
         font-family: 'Barlow', sans-serif;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
     }
 }
@@ -179,7 +189,7 @@
     .devText {
         text-align: left;
         font-family: 'Barlow', sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 500;
         padding: 0;
     }

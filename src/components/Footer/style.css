@@ -1,7 +1,19 @@
+
 .aTag {
     width: 50px;
     padding: 5px 5px 25px 5px;
-    z-index: 2;
+    z-index: 0;
+}
+
+.githubLogo {
+    fill: white !important;
+}
+
+
+.aTag:hover {
+    transition: ease .2s;
+    transform: scale(1.3);
+    
 }
 
 .footer {
@@ -10,7 +22,7 @@
     bottom:0;
 }
 
-#myBtn{
+#scrollBTN{
     padding-top: 10px;
     padding-left: 18px;
     padding-bottom: 5px;
@@ -41,14 +53,19 @@
     color: black;
 }
 
-@media (max-width: 320px){
+@media (max-width: 600px){
     .fa{
+        bottom: 40px;
         right: 15px;
         padding-top: 5px;
         padding-left: 10px;
         padding-bottom: 5px;
         padding-right: 10px; 
-        font-size: 45px;
+        font-size: 30px;
+    }
+    .aTag{
+        width: 40px;
+    padding: 5px 5px 25px 5px;
     }
 }
 

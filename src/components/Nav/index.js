@@ -17,16 +17,16 @@ function Navigation() {
   <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul className="navbar-nav ml-auto">
     <li className="nav-item">
-            <NavLink className="navLink" to="/music">MUSIC</NavLink>
+            <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/music">MUSIC</NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="navLink" to="/webdevelopment">WEB DEVELOPMENT</NavLink>
+            <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/webdevelopment">WEB DEVELOPMENT</NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="navLink" to="/resume">RESUME</NavLink>
+            <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/resume">RESUME</NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="navLink" to="/contact">CONTACT</NavLink>
+            <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/contact">CONTACT</NavLink>
           </li>
     </ul>
   </div>

@@ -54,14 +54,6 @@ const Contact = () => {
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <Footer />
     </div>
 

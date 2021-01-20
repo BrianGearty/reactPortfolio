@@ -5,7 +5,7 @@ import "./style.css"
 
 
 function Footer() {
-
+    
         useEffect(()=>{ 
         let mybutton = document.getElementsByClassName("fa")[0];
         window.onscroll = function() {scrollFunction()};
@@ -24,20 +24,22 @@ function Footer() {
         function topFunction() {
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
         }
     
 
     useEffect(() => {
-    function switchLogo() {
+    const switchLogo =(() => {
         if(window.location.pathname === "/resume" || window.location.pathname === "/contact"){
-        console.log(window.location)
+        console.log(window.location.pathname)
             document.getElementsByClassName("blackLogo")[0].style.display = "none";
             }
+
         else {
             document.getElementsByClassName("whiteLogo")[0].style.display = "none";
         }
-    }
-    switchLogo()
+    })
+    switchLogo();
 })
 
     return (

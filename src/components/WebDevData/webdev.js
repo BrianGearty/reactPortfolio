@@ -13,7 +13,7 @@ const data = [
     "image":"assets/images/lemarchefrancais.jpg",
     "alt":"French Market",
     "name":"Le Marché Français",
-    "text":"Developed an app that allows a user to virtually shop a fresh marketplace from the comfort of their home and check out to pick up their order.",
+    "text":"Developed an app that allows a user to virtually shop a fresh marketplace from the comfort of their home and check out to pick up their order. The only thing I didnt handle was a little bit of the styling. For this project I used HTML, CSS, Handlebars, Javascript, Jquery, and Ajax.",
     "appUrl": "https://lemarchefrancais.herokuapp.com/",
     "githubUrl": "https://github.com/BrianGearty/Project_2"
 },

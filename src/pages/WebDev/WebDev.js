@@ -15,11 +15,11 @@ const WebDev = () => {
     const fadeRightAnimation = keyframes `${fadeIn}`;
     const FadeRight = styled.div `animation: 2s ${fadeRightAnimation}`
 
-    const fadeInAnimation = keyframes `${fadeIn}`;
-    const FadeIn = styled.div `animation: .5s ${fadeInAnimation}`
-
+//   `  // const fadeInAnimation = keyframes `${fadeIn}`;
+//     // const FadeIn = styled.div `animation: .5s ${fadeInAnimation}`
+// `
     return (
-        <div className="webDevFade">
+        <div className="webDevPage">
         <Container fluid >
             <Row>
                 <Col size="lg-12">
@@ -30,7 +30,6 @@ const WebDev = () => {
                                     <Card.Body>
                                         <LazyLoad once height="100%" placeholder={<Loading />}>
                                         <CardImg className='devCardImage' src={dev.image} alt={dev.alt}></CardImg>
-                                        
                                         <div className="devCardStuff">
                                         <FadeRight><Card.Title className="devCardHeader">{dev.name}</Card.Title></FadeRight>
                                         <FadeRight><Card.Text className="devText">{dev.text}</Card.Text></FadeRight>
@@ -46,6 +45,10 @@ const WebDev = () => {
                 </Col>
             </Row>
         </Container>
+        <br />
+        <br />
+        <br />
+        <br />
         <Footer />
         </div>
     );
