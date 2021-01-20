@@ -6,7 +6,7 @@
 * [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
-* [Deployment] https://briangearty.com
+* Deployment https://briangearty.com
 * [Test](#test)
 * [Questions](#questions)
 
