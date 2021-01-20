@@ -15,9 +15,6 @@ const WebDev = () => {
     const fadeRightAnimation = keyframes `${fadeIn}`;
     const FadeRight = styled.div `animation: 2s ${fadeRightAnimation}`
 
-//   `  // const fadeInAnimation = keyframes `${fadeIn}`;
-//     // const FadeIn = styled.div `animation: .5s ${fadeInAnimation}`
-// `
     return (
         <div className="webDevPage">
         <Container fluid >
