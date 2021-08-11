@@ -9,7 +9,9 @@ function sendEmail(e) {
 
     emailjs.sendForm('gmail', 'template_gsubq8v', e.target, 'user_pqHnzMPwJyjHNYwuZgwiR')
         .then((result) => {
-            console.log(result.text);
+            if(result.text === ""){
+                alert("Please do not send me an empty message.")
+            }
         }, (error) => {
             console.log(error.text);
         });

@@ -31,7 +31,6 @@ function Footer() {
     useEffect(() => {
     const switchLogo =(() => {
         if(window.location.pathname === "/resume" || window.location.pathname === "/contact"){
-        console.log(window.location.pathname)
             document.getElementsByClassName("blackLogo")[0].style.display = "none";
             }
 

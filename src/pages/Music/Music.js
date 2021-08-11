@@ -25,10 +25,10 @@ const Music = () => {
                                     <div key={i} className="cards">
                                         <Card.Body>
                                             <LazyLoad once height="100%" placeholder={<Loading />}>
-                                                <div class="imgDiv">
+                                                <div className="imgDiv">
                                                     <CardImg className='cardImage' src={artist.image} alt={artist.alt}></CardImg>
-                                                    <div class="middle">
-                                                        <div class="text">{artist.hover}</div>
+                                                    <div className="middle">
+                                                        <div className="text">{artist.hover}</div>
                                                     </div>
                                                 </div>
                                                 <div className="cardStuff">

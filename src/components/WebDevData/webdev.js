@@ -41,8 +41,8 @@ const data = [
     "alt":"Weather Dashboard",
     "name":"Weather Dashboard",
     "text":"This is a simple weather application that gets the current weather for a selected city as well as the 5 day forecast. You can type any city into the search bar and it will show the weather for that city.",
-    "appUrl": "https://briangearty.github.io/WeatherDashboard/",
-    "githubUrl": "https://github.com/BrianGearty/WeatherDashboard"
+    "appUrl": "https://briangearty.github.io/Weather/",
+    "githubUrl": "https://github.com/BrianGearty/Weather"
 }
 
 ]

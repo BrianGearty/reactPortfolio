@@ -19,13 +19,13 @@ function Navigation() {
     <li className="nav-item">
             <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/music">MUSIC</NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/webdevelopment">WEB DEVELOPMENT</NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/resume">RESUME</NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink className="navLink" data-toggle="collapse" data-target=".navbar-collapse.show" to="/contact">CONTACT</NavLink>
           </li>
     </ul>
