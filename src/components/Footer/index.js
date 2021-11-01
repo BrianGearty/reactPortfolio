@@ -39,7 +39,7 @@ function Footer() {
         }
     })
     switchLogo();
-    
+    //comment
 })
 
     return (
