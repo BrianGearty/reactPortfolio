@@ -18,9 +18,10 @@ const Home = () => {
                     <Col size="lg-10" className="leftside">
                             <div className='homeCard-body'>
                                 <div className="homeTextDiv">
-                                <FadeUp><div className="homeTitle">Web Developer & Session Musician</div></FadeUp>
-                                    <FadeUp><p className="homeText">I am a bass player and session musician providing services to artists, bands, television productions, and educational institutions. I studied at The Collective School of Music in New York City under some of the worlds top session musicians. I have backed many different touring artists spanning countless genres including; Dana Fuchs, Nicole Atkins, Eric Lindell, Gedeon Luke, Evvie McKinney, Fly By Midnight, Corey Glover and more. </p></FadeUp>
-                                    <FadeUp><p className="homeText">As of December 2020 I am a graduate and certificate recipient from Rutgers University's Full Stack Coding Bootcamp. I am thoroughly versed in all aspects of Full Stack Development including; Javascript, jQuery, HTML, CSS, Handlebars, REST API, JSON, React, Node, MySQL, and MongoDB. One of my greatest strengths as a developer is being a great communicator. Working as a session musician for the past decade has taught me how to collaboratively create as a team player and address problems in an effective, professional manner affirming the task at hand.</p></FadeUp>
+                                <FadeUp><div className="homeTitle">Full Stack Engineer</div></FadeUp>
+                                    <FadeUp><p className="homeText">JavaScript developer working in React, jQuery, Node, MySQL, MongoDB, DynamoDB. Currently teaching bootcamp students at 2U.</p></FadeUp>
+                                    <FadeUp><p className="homeText">Working as a freelance musician my entire life I know what it takes to put my soul into heart-felt projects. This challenging line of work has helped hone my ability to collaboratively create with a team and my punctual, self-starting work ethic.</p></FadeUp>
+                                    <FadeUp><p className="homeText">My determination to progress musically has brought many professional achievements and I bring that same determination to software development. I am excited about building and enhancing the performance of intuitive, user-centric applications and websites that improve the world.</p></FadeUp>
                                 </div>
                             </div>
                     </Col>
