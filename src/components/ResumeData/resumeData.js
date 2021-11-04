@@ -2,9 +2,9 @@ const data = [
     {
         "id": 1,
         "companyName": "2U",
-        "jobTitle": "Full Stack Web Development Tutor",
+        "jobTitle": "Full Stack Development Tutor",
         "duration": "June 2021 - Present",
-        "description": "Providing instructional guidance to bootcamp students in front-end, server-side, and back-end technologies."
+        "description": "Providing instructional guidance to bootcamp students in front-end, server-side, and back-end technologies. Tutoring production level software by providing structured code reviews and promoting understanding. Training students to become self-sufficient developers by detecting and resolving faulty code."
     },
     {
         "id": 2,
