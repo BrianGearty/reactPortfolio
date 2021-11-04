@@ -18,7 +18,7 @@ const Home = () => {
                     <Col size="lg-10" className="leftside">
                             <div className='homeCard-body'>
                                 <div className="homeTextDiv">
-                                <FadeUp><div className="homeTitle">Full Stack Engineer</div></FadeUp>
+                                <FadeUp><div className="homeTitle">Full Stack Developer</div></FadeUp>
                                     <FadeUp><p className="homeText">JavaScript developer working in React, jQuery, Node, MySQL, MongoDB, DynamoDB. Currently teaching bootcamp students at 2U.</p></FadeUp>
                                     <FadeUp><p className="homeText">Working as a freelance musician my entire life I know what it takes to put my soul into heart-felt projects. This challenging line of work has helped hone my ability to collaboratively create with a team and my punctual, self-starting work ethic.</p></FadeUp>
                                     <FadeUp><p className="homeText">My determination to progress musically has brought many professional achievements and I bring that same determination to software development. I am excited about building and enhancing the performance of intuitive, user-centric applications and websites that improve the world.</p></FadeUp>
