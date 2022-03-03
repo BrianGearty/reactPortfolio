@@ -60,6 +60,18 @@ body {
     padding-top: 25px;
 }
 
+.homeText::before {
+  content: '';
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .homeTitle {
     margin: auto;
     font-family: 'Barlow Condensed', sans-serif;
@@ -67,6 +79,18 @@ body {
     letter-spacing: 1px;
     font-weight: 700;
     color: white;
+}
+
+.homeTitle::before {
+  content: '';
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
     @media (min-width: 320px) {
