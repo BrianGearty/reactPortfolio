@@ -2,7 +2,7 @@ const data = [
     {
         "id": 1,
         "companyName": "ShoreSite Web Designs",
-        "jobTitle": "Freelance Back End Developer",
+        "jobTitle": "Full Stack Developer",
         "duration": "December 2021 - Present",
         "description": "Implementing new features for more performant mobile applications and sites. Debugging and testing client sites provides a smoother UI that maximizes revenue."
     },
